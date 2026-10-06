@@ -1,25 +1,303 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "Example Logic only category": {
-        "hidden": true
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.categories.schema.json",
+    "Characters": {
+        "yaml_option": []
     },
-    "Example Yaml-option category": {
-        "yaml_option": ["DLC_enabled"]
+    "Estates": {
+
     },
-    "For_Tests_And_Examples": {
-         "hidden": true,
-         "yaml_option": ["Tests_content"]
+    "Starter Estates":{
+        
     },
-    "place_item_category_test": {
-         "hidden": true
+    "Stages": {
+        
     },
-    "dont_place_item_category_test": {
-         "hidden": true
+    "Full stages": {
+
     },
-    "Left Side":{
-        "sort-key": "Side2"
+    "Split-up stages": {
+
     },
-    "Right Side":{
-        "sort-key": "Side1"
+    "Finder - DSLR remix-re:edit": {
+        
+    },
+    "Sweet Magic": {
+        
+    },
+    "Deep Sea Girl": {
+        
+    },
+    "Animal Fortune-telling": {
+        
+    },
+    "Terekakushi Shishunki": {
+        
+    },
+    "The World is Mine": {
+        
+    },
+    "Amatsu Kitsune": {
+        
+    },
+    "Ageage Again": {
+        
+    },
+    "Clover Club": {
+        
+    },
+    "Yumeyume": {
+        
+    },
+    "Doremifa Rondo": {
+        
+    },
+    "reverse rainbow": {
+        
+    },
+    "KONEKO NO PAYAPAYA": {
+        
+    },
+    "Hello/How are you?": {
+        
+    },
+    "Kokoro": {
+        
+    },
+    "PIANO*GIRL": {
+        
+    },
+    "Happy Synthesizer": {
+        
+    },
+    "SING&SMILE": {
+        
+    },
+    "1/6 -out of the gravity-": {
+        
+    },
+    "Mousou Sketch": {
+        
+    },
+    "1925": {
+        
+    },
+    "Matryoshka": {
+        
+    },
+    "Cendrillon": {
+        
+    },
+    "Adolescence": {
+        
+    },
+    "on the rocks": {
+        
+    },
+    "No Logic": {
+        
+    },
+    "*Hello, Planet.": {
+        
+    },
+    "Romeo and Cinderella": {
+        
+    },
+    "LOL -lots of laugh-": {
+        
+    },
+    "Senbonzakura": {
+        
+    },
+    "Aku no Musume": {
+        
+    },
+    "Aku no Meshitsukai": {
+        
+    },
+    "Snowman": {
+        
+    },
+    "Invisible": {
+        
+    },
+    "Gaikotsu Gakudan to Riria": {
+        
+    },
+    "ARIFURETA SEKAI SEIFUKU": {
+        
+    },
+    "Electric Love": {
+        
+    },
+    "Melancholic": {
+        
+    },
+    "1 2 Fanclub": {
+        
+    },
+    "Electric Angel": {
+        
+    },
+    "Interviewer": {
+        
+    },
+    "Tricolore Airline": {
+        
+    },
+    "Piano X Forte X Scandal": {
+        
+    },
+    "Kimi no Taion": {
+        
+    },
+    "glow": {
+        
+    },
+    "Nice To Meet You, Mr. Earthling": {
+        
+    },
+    "Watashi no jikan": {
+        
+    },
+    "shake it!": {
+        
+    },
+    "Tap": {
+        
+    },
+    "Button": {
+        
+    },
+    "A rank": {
+
+    },
+    "S rank": {
+
+    },
+    "S+ rank": {
+
+    },
+    "SP All": {
+
+    },
+    "PERFECT": {
+
+    },
+    "Easy": {
+
+    },
+    "Normal": {
+        
+    },
+    "Hard": {
+
+    },
+    "SUPER Hard": {
+
+    },
+    "Difficulty 1": {
+
+    },
+    "Difficulty 2": {
+
+    },
+    "Difficulty 3": {
+
+    },
+    "Difficulty 4": {
+
+    },
+    "Difficulty 5": {
+
+    },
+    "Difficulty 6": {
+
+    },
+    "Difficulty 7": {
+
+    },
+    "Difficulty 8": {
+
+    },
+    "Difficulty 9": {
+
+    },
+    "Difficulty MAX": {
+
+    },
+    "Hatsune Miku": {
+
+    },
+    "Kagamine Rin": {
+
+    },
+    "Kagamine Len": {
+
+    },
+    "Megurine Luka": {
+
+    },
+    "KAITO": {
+
+    },
+    "MEIKO": {
+
+    },
+    "GUMI": {
+
+    },
+    "Inputs": {
+        
+    },
+    "Items": {
+        
+    },
+    "MP Filler Items": {
+        
+    },
+    "Filler": {
+        
+    },
+    "Joke Filler": {
+        
+    },
+    "Traps": {
+        
+    },
+    "Mirai Token": {
+        
+    },
+    "AR Cards": {
+        
+    },
+    "Character Cards": {
+
+    },
+    "Stage Cards": {
+
+    },
+    "Stampsanity - Full": {
+
+    },
+    "Stampsanity - Simple": {
+
+    },
+    "Random Chance Stamps": {
+
+    },
+    "Mikuversi Stamps": {
+        
+    },
+    "AR Stamps": {
+
+    },
+    "Puyo Puyo 39!": {
+
+    },
+    "Shopsanity": {
+
+    },
+    "My Room": {
+
     }
 }

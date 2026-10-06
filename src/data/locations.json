@@ -1,351 +1,1602 @@
 {
-	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Example_Range decide the amount of items required for this location",
-            "requires": "{OptionCount(Item Name for OptionCount Example, Example_Range)}",
-            "category": ["For_Tests_And_Examples"]
+            "name": "Mirai",
+            "category": "Goal", 
+            "victory": true,
+            "requires": "|Credits played| or _ or _ or {OptionCountPercent(Mirai Token, mirai_token_percentage)}",
+            "_comment": "TODO - do the other two goal options (complete X stages, complete X% hard stages)"
         },
         {
-            "name": "Beat the Game - Ryu",
-            "category": ["Starter Team", "Left Side"],
-            "region": "ExampleRegion",
-            "scoutable": true
+            "name": "Stamp 2 - Me",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Chun-Li",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Chun-Li| or {YamlCompare(Example_Choice == 1)}"
+            "name": "Stamp 3 - Glutton",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Akuma",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Akuma| or {YamlCompare(Example_Toggle != True)}"
-        },
-
-        {
-            "name": "Beat the Game - Jill",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Jill| and {ItemValue(star:5)}"
+            "name": "Stamp 4 - Moneybags",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Shuma-Gorath",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Shuma-Gorath| or |UT Glitches|",
-            "hint_entrance": "Unlock Shuma-Gorath"
+            "name": "Stamp 5 - Go-getter",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Nemesis T-Type",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Nemesis T-Type|"
+            "name": "Stamp 6 - Stopper",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Firebrand",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Firebrand|"
+            "name": "Stamp 8 - Nightmare",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Strider Hiryu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Strider Hiryu|"
+            "name": "Stamp 9 - Morning Person",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Phoenix Wright",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Phoenix Wright|"
+            "name": "Stamp 10 - Fashionista",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Nova",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Nova|"
+            "name": "Stamp 11 - Interior Designer",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Ghost Rider",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Ghost Rider|"
+            "name": "Stamp 12 - Musician",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Hawkeye",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hawkeye|"
+            "name": "Stamp 13 - Home Shopper",
+            "category": ["Stampsanity - Simple", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Doctor Strange",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Strange|"
+            "name": "Stamp 14 - DJ",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Chris",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Chris|"
+            "name": "Stamp 15 - Pianist",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Arthur",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Arthur|"
+            "name": "Stamp 16 - Rainmaker",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Frank West",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Frank West|"
+            "name": "Stamp 17 - Fighting Gamer",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Vergil",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Vergil|"
+            "name": "Stamp 18 - Racer",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Iron Fist",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Fist|"
+            "name": "Stamp 19 - Bullseye",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Rocket Raccoon",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Rocket Raccoon|"
+            "name": "Stamp 20 - Lucky Winner",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Captain America",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Captain America|"
+            "name": "Stamp 21 - Perceiver",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Dormammu",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Dormammu|"
+            "name": "Stamp 22 - Fireball",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - Wesker",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Wesker|"
+            "name": "Stamp 23 - Millionaire",
+            "category": ["Stampsanity - Full"]
         },
         {
-            "name": "Beat the Game - Zero",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Zero|"
+            "name": "Stamp 24 - Songstress",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Hatsune Miku|)}"
         },
         {
-            "name": "Beat the Game - Dante",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Dante|"
+            "name": "Stamp 25 - Girl",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Kagamine Rin|)}"
         },
         {
-            "name": "Beat the Game - Deadpool",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Deadpool| or {YamlEnabled(start_with_deadpool)}"
+            "name": "Stamp 26 - Boy",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Kagamine Len|)}"
         },
         {
-            "name": "Beat the Game - Wolverine",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Wolverine|"
+            "name": "Stamp 27 - Beauty",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Megurine Luka|)}"
         },
         {
-            "name": "Beat the Game - Iron Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Man|"
+            "name": "Stamp 28 - Guy",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|KAITO|)}"
         },
         {
-            "name": "Beat the Game - Doctor Doom",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Doom|"
+            "name": "Stamp 29 - Gal",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|MEIKO|)}"
         },
         {
-            "name": "Beat the Game - Morrigan",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Morrigan|"
+            "name": "Stamp 30 - Friend",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |Kagamine Rin| and |Kagamine Len| and |Megurine Luka| and |KAITO| and |MEIKO|)}"
         },
         {
-            "name": "Beat the Game - Tron",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Tron|"
+            "name": "Stamp 31 - Brainiac",
+            "category": ["Stampsanity - Simple", "Mikuversi Stamps"]
         },
         {
-            "name": "Beat the Game - Trish",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Trish|"
+            "name": "Stamp 32 - Maestro",
+            "category": ["Stampsanity - Simple", "Mikuversi Stamps"]
         },
         {
-            "name": "Beat the Game - X-23",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|X-23|"
+            "name": "Stamp 33 - Genius",
+            "category": ["Stampsanity - Full", "Mikuversi Stamps"]
         },
         {
-            "name": "Beat the Game - Storm",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Storm|"
+            "name": "Stamp 34 - Gourmet",
+            "category": ["Stampsanity - Simple"]
         },
         {
-            "name": "Beat the Game - Thor",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Thor|"
+            "name": "Stamp 35 - Trouper",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"]
         },
         {
-            "name": "Beat the Game - M.O.D.O.K.",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|M.O.D.O.K.|"
+            "name": "Stamp 37 - Mystery Hunter",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"],
+            "requires": "{OptOne(|Penthouse Estate|)}"
         },
         {
-            "name": "Beat the Game - Felicia",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Felicia|"
+            "name": "Stamp 38 - Diver",
+            "category": ["Stampsanity - Full", "Random Chance Stamps"],
+            "requires": "{OptOne(|Villa Estate|)}"
         },
         {
-            "name": "Beat the Game - Spencer",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Spencer|"
+            "name": "Stamp 39 - Goddess",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Hatsune Miku|)}"
         },
         {
-            "name": "Beat the Game - Viewtiful Joe",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Viewtiful Joe|"
+            "name": "Stamp 40 - Priestess",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Kagamine Rin|)}"
         },
         {
-            "name": "Beat the Game - Spider-Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Spider-Man|",
+            "name": "Stamp 41 - Warrior",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Kagamine Len|)}"
+        },
+        {
+            "name": "Stamp 42 - Witch",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Megurine Luka|)}"
+        },
+        {
+            "name": "Stamp 43 - Duke",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|KAITO|)}"
+        },
+        {
+            "name": "Stamp 44 - Sage",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|MEIKO|)}"
+        },
+        {
+            "name": "Stamp 45 - VIP",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |Kagamine Rin| and |Kagamine Len| and |Megurine Luka| and |KAITO| and |MEIKO|)}"
+        },
+        {
+            "name": "Stamp 46 - Rookie",
+            "category": ["Stampsanity - Simple"],
+            "requires": "|@Stages|"
+        },
+        {
+            "name": "Stamp 47 - Voice",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Characters:ALL|)} and |@Finder - DSLR remix-re:edit| and |@Sweet Magic| and |@Deep Sea Girl| and |@Animal Fortune-telling| and |@Terekakushi Shishunki| and |@The World is Mine| and |@Amatsu Kitsune| and |@Ageage Again| and |@Clover Club| and |@Yumeyume| and |@Doremifa Rondo| and |@revers rainbow| and |@KONEKO NO PAYAPAYA| and |@Hello/How are you?| and |@Kokoro| and |@PIANO*GIRL| and |@Happy Synthesizer| and |@SING&SMILE| and |@1/6 -out of the gravity-| and |@Mousou Sketch| and |@1925| and |@Matryoshka| and |@Cendrillon| and |@Adolescence| and |@on the rocks| and |@No Logic| and |@*Hello, Planet.| and |@Romeo and Cinderella| and |@LOL -lots of laugh-| and |@Senbonzakura| and |@Aku no Musume| and |@Aku no Meshitsukai| and |@Snowman| and |@Invisible| and |@Gaikotsu Gakudan to Riria| and |@ARIFURETA SEKAI SEIFUKU| and |@Electric Love| and |@Melancholic| and |@1 2 Fanclub| and |@Electric Angel| and |@Interviewer| and |@Tricolore Airline| and |@Piano X Forte X Scandal| and |@Kimi no Taion| and |@glow| and |@Nice To Meet You, Mr. Earthling| and |@Watashi no jikan| and |@shake it!|"
+        },
+        {
+            "name": "Stamp 48 - Player",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Characters:ALL|)} and "
+        },
+        {
+            "name": "Stamp 49 - Keeper",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Characters:ALL|)} and "
+        },
+        {
+            "name": "Stamp 50 - Rhythmicist",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Characters:ALL|)} and "
+        },
+        {
+            "name": "Stamp 51 - Conductor",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Characters:ALL|)} and "
+        },
+        {
+            "name": "Stamp 52 - Muse",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Characters:ALL|)} and "
+        },
+        {
+            "name": "Stamp 53 - Master",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Characters:ALL|)} and "
+        },
+        {
+            "name": "Stamp 54 - Metronome",
+            "category": ["Stampsanity - Simple"],
+            "requires": "|@Stages|"
+        },
+        {
+            "name": "Stamp 56 - Viewer",
+            "category": ["Stampsanity - Simple"],
+            "requires": "|@Stages|"
+        },
+        {
+            "name": "Stamp 57 - Commenter",
+            "category": ["Stampsanity - Simple"],
+            "requires": "|@Stages|"
+        },
+        {
+            "name": "Stamp 60 - Band Member",
+            "category": ["Stampsanity - Simple"],
+            "requires": "|@Stages|"
+        },
+        {
+            "name": "Stamp 61 - Maiden",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|@Characters:ALL|)} and |@Deep Sea Girl| and |@Animal Fortune-telling| and |@The World is Mine| and |@Ageage Again| and |@Clover Club| and |@Yumeyume| and |@Doremifa Rondo| and |@reverse rainbow| and |@KONEKO NO PAYAPAYA| and |@Hello/How are you?| and |@PIANO*GIRL| and |@SING&SMILE| and |@1/6 -out of the gravity-| and |@Mousou Sketch| and |@1925| and |@Matryoshka| and |@Cendrillon| and |@*Hello, Planet.| and |@Romeo and Cinderella| and |@LOL -lots of laugh-| and |@Senbonzakura| and |@Gaikotsu Gakudan to Riria| and |@ARIFURETA SEKAI SEIFUKU| and |@Electric Love| and |@Electric Angel| and |@Interviewer| and |@Tricolore Airline| and |@Piano X Forte X Scandal| and |@Kimi no Taion| and |@glow| and |@Nice To Meet You, Mr. Earthling| and |@shake it!|"
+        },
+        {
+            "name": "Stamp 62 - Lass",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |Kagamine Rin| and |Kagamine Len| and |Megurine Luka| and |MEIKO| and |GUMI|)} and |@Sweet Magic| and |@Animal Fortune-telling| and |@Amatsu Kitsune| and |@reverse rainbow| and |@Kokoro| and |@SING&SMILE| and |@Mousou Sketch| and |@1925| and |@Adolescence| and |@Romeo and Cinderella| and |@Aku no Musume| and |@Invisible| and |@Melancholic| and |@1 2 Fanclub| and |@Electric Angel| and |@Tricolore Airline| and |@Piano X Forte X Scandal| and |@shake it!|"
+        },
+        {
+            "name": "Stamp 63 - Lad",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |Kagamine Rin| and |Kagamine Len|)} and |@Terekakushi Shishunki| and |@reverse rainbow| and |@SING&SMILE| and |@1925| and |@Adolescence| and |@Aku no Meshitsukai| and |@Snowman| and |@shake it!|"
+        },
+        {
+            "name": "Stamp 64 - Madam",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |Kagamine Rin| and |GUMI|)} and |@Animal Fortune-telling| and |@reverse rainbow| and |@Happy Synthesizer| and |@SING&SMILE| and |@1925| and |@No Logic| and |@Romeo and Cinderella| and |@Electric Angel| and |@Interviewer| and |@Tricolore Airline|"
+        },
+        {
+            "name": "Stamp 65 - Gentleman",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |MEIKO|)} and |@Terekakushi Shishunki| and |@Clover Club| and |@SING&SMILE| and |@1925| and |@Cendrillon| and |@on the rocks| and |@Snowman| and |@Piano X Forte X Scandal|"
+        },
+        {
+            "name": "Stamp 66 - Lady",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |Kagamine Rin| and |MEIKO|)} and |@Animal Fortune-telling| and |@KONEKO NO PAYAPAYA| and |@SING&SMILE| and |@1925| and |@on the rocks| and |@Tricolore Airline| and |@Piano X Forte X Scandal|"
+        },
+        {
+            "name": "Stamp 67 - Dresser",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|@Characters:ALL|)} and |@Sweet Magic| and |@Deep Sea Girl| and |@Animal Fortune-telling| and |@Terekakushi Shishunki| and |@The World is Mine| and |@Amatsu Kitsune| and |@Ageage Again| and |@Clover Club| and |@Yumeyume| and |@Doremifa Rondo| and |@reverse rainbow| and |@KONEKO NO PAYAPAYA| and |@Hello/How are you?| and |@Kokoro| and |@PIANO*GIRL| and |@Happy Synthesizer| and |@SING&SMILE| and |@1/6 -out of the gravity-| and |@Mousou Sketch| and |@1925| and |@Matryoshka| and |@Cendrillon| and |@Adolescence| and |@on the rocks| and |@No Logic| and |@*Hello, Planet.| and |@Romeo and Cinderella| and |@LOL -lots of laugh-| and |@Senbonzakura| and |@Aku no Musume| and |@Aku no Meshitsukai| and |@Snowman| and |@Invisible| and |@Gaikotsu Gakudan to Riria| and |@ARIFURETA SEKAI SEIFUKU| and |@Electric Love| and |@Melancholic| and |@1 2 Fanclub| and |@Electric Angel| and |@Interviewer| and |@Tricolore Airline| and |@Piano X Forte X Scandal| and |@Kimi no Taion| and |@glow| and |@Nice To Meet You, Mr. Earthling| and |@shake it!|"
+        },
+        {
+            "name": "Stamp 68 - Collector",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |KAITO| and |MEIKO| and |GUMI|)} and ({YamlDisabled(split_up_songs)} and |Mousou Sketch| and |Piano X Forte X Scandal| and |Matryoshka| and |Doremifa Rondo| and |1925| and |Snowman| and |ARIFURETA SEKAI SEIFUKU| and |Gaikotsu Gakudan to Riria|) or ({YamlEnabled(split_up_songs)} and (|Mousou Sketch - Tap/Hard| or |Mousou Sketch - Button/Hard|) and (|Piano X Forte X Scandal - Tap/Hard| or |Piano X Forte X Scandal - Button/Hard|) and (|Matryoshka - Tap/Hard| or |Matryoshka - Tap/SUPER Hard| or |Matryoshka - Button/Hard| or |Matryoshka - Button/SUPER Hard|) and (|Doremifa Rondo - Tap/Hard| or |Doremifa Rondo - Button/Hard|) and (|1925 - Tap/Hard| or |1925 - Button/Hard|) and (|Snowman - Tap/Hard| or |Snowman - Button/Hard|) and (|ARIFURETA SEKAI SEIFUKU - Tap/Hard| or |ARIFURETA SEKAI SEIFUKU - Tap/SUPER Hard| or |ARIFURETA SEKAI SEIFUKU - Button/Hard| or |ARIFURETA SEKAI SEIFUKU - Button/SUPER Hard|) and (|Gaikotsu Gakudan to Riria - Tap/Hard| or |Gaikotsu Gakudan to Riria - Button/Hard|))"
+        },
+        {
+            "name": "Stamp 69 - Gadgeteer",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptOne(|Hatsune Miku|)} and ({YamlDisabled(split_up_songs)} and |LOL -lots of laugh-| and |Yumeyume|) or ({YamlEnabled(split_up_songs)} and (|LOL -lots of laugh- - Tap/Hard| or |LOL -lots of laugh- - Button/Hard|) and (|Yumeyume - Tap/Hard| or |Yumeyume - Button/Hard|))"
+        },
+        {
+            "name": "Stamp 70 - Mover",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Kagamine Rin| and |GUMI|)} and ({YamlDisabled(split_up_songs)} and |1 2 Fanclub|) or ({YamlEnabled(split_up_songs)} and (|1 2 Fanclub - Tap/Hard| or |1 2 Fanclub - Button/Hard|))"
+        },
+        {
+            "name": "Stamp 71 - Wall Pinner",
+            "category": ["Stampsanity - Full"]
+        },
+        {
+            "name": "Stamp 72 - Flyer",
+            "category": ["Stampsanity - Full"]
+        },
+        {
+            "name": "Stamp 73 - Swimmer",
+            "category": ["Stampsanity - Full"]
+        },
+        {
+            "name": "Stamp 74 - Holder",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|Hatsune Miku| and |Kagamine Rin| and |KAITO| and |MEIKO| and |GUMI|)} and ({YamlDisabled(split_up_songs)} and |Mousou Sketch| and |Piano X Forte X Scandal| and |Matryoshka| and |Doremifa Rondo| and |1925| and |Snowman| and |ARIFURETA SEKAI SEIFUKU| and |Gaikotsu Gakudan to Riria| and |LOL -lots of laugh-| and |Yumeyume| and |1 2 Fanclub|) or ({YamlEnabled(split_up_songs)} and (|Mousou Sketch - Tap/Hard| or |Mousou Sketch - Button/Hard|) and (|Piano X Forte X Scandal - Tap/Hard| or |Piano X Forte X Scandal - Button/Hard|) and (|Matryoshka - Tap/Hard| or |Matryoshka - Tap/SUPER Hard| or |Matryoshka - Button/Hard| or |Matryoshka - Button/SUPER Hard|) and (|Doremifa Rondo - Tap/Hard| or |Doremifa Rondo - Button/Hard|) and (|1925 - Tap/Hard| or |1925 - Button/Hard|) and (|Snowman - Tap/Hard| or |Snowman - Button/Hard|) and (|ARIFURETA SEKAI SEIFUKU - Tap/Hard| or |ARIFURETA SEKAI SEIFUKU - Tap/SUPER Hard| or |ARIFURETA SEKAI SEIFUKU - Button/Hard| or |ARIFURETA SEKAI SEIFUKU - Button/SUPER Hard|) and (|Gaikotsu Gakudan to Riria - Tap/Hard| or |Gaikotsu Gakudan to Riria - Button/Hard|) and (|LOL -lots of laugh- - Tap/Hard| or |LOL -lots of laugh- - Button/Hard|) and (|Yumeyume - Tap/Hard| or |Yumeyume - Button/Hard|) and (|1 2 Fanclub - Tap/Hard| or |1 2 Fanclub - Button/Hard|))"
+        },
+        {
+            "name": "Stamp 75 - Shopaholic",
+            "category": ["Stampsanity - Full"],
+            "requires": "{OptAll(|@Characters:ALL|)} and |@Sweet Magic| and |@Deep Sea Girl| and |@Animal Fortune-telling| and |@Terekakushi Shishunki| and |@The World is Mine| and |@Amatsu Kitsune| and |@Ageage Again| and |@Clover Club| and |@reverse rainbow| and |@KONEKO NO PAYAPAYA| and |@Hello/How are you?| and |@Kokoro| and |@PIANO*GIRL| and |@Happy Synthesizer| and |@SING&SMILE| and |@1/6 -out of the gravity-| and |@Cendrillon| and |@Adolescence| and |@on the rocks| and |@No Logic| and |@*Hello, Planet.| and |@Romeo and Cinderella| and |@Senbonzakura| and |@Aku no Musume| and |@Aku no Meshitsukai| and |@Invisible| and |@Electric Love| and |@Melancholic| and |@Electric Angel| and |@Interviewer| and |@Tricolore Airline| and |@Kimi no Taion| and |@glow| and |@Nice To Meet You, Mr. Earthling| and |@shake it!| and (({YamlDisabled(split_up_songs)} and |Yumeyume| and |Doremifa Rondo| and |Mousou Sketch| and |1925| and |Matryoshka| and |LOL -lots of laugh-| and |Snowman| and |Gaikotsu Gakudan to Riria| and |ARIFURETA SEKAI SEIFUKU| and |1 2 Fanclub| and |Piano X Forte X Scandal|) or {YamlEnabled(split_up_songs)} and (|Yumeyume - Tap/Hard| or |Yumeyume - Button/Hard|) and (|Doremifa Rondo - Tap/Hard| or |Doremifa Rondo - Button/Hard|) and (|Mousou Sketch - Tap/Hard| or |Mousou Sketch - Button/Hard|) and (|1925 - Tap/Hard| or |1925 - Button/Hard|) and (|Matryoshka - Tap/Hard| or |Matryoshka - Button/Hard| or |Matryoshka - Tap/SUPER Hard| or |Matryoshka - Button/SUPER Hard|) and (|LOL -lots of laugh- - Tap/Hard| or |LOL -lots of laugh- - Button/Hard|) and (|Snowman - Tap/Hard| or |Snowman - Button/Hard|) and (|Gaikotsu Gakudan to Riria - Tap/Hard| or |Gaikotsu Gakudan to Riria - Button/Hard|) and (|ARIFURETA SEKAI SEIFUKU - Tap/Hard| or |ARIFURETA SEKAI SEIFUKU - Button/Hard| or |ARIFURETA SEKAI SEIFUKU - Tap/SUPER Hard| or |ARIFURETA SEKAI SEIFUKU - Button/SUPER Hard|) and (|1 2 Fanclub - Tap/Hard| or |1 2 Fanclub - Button/Hard|) and (|Piano X Forte X Scandal - Tap/Hard| or |Piano X Forte X Scandal - Button/Hard|))"
+        },
+        {
+            "name": "Stamps 76-80 - Two Stamps obtained",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptOne(|@Starter Estates:2|)}"
+        },
+        {
+            "name": "Stamps 76-80 - Three Stamps obtained",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptOne(|@Starter Estates:3|)}"
+        },
+        {
+            "name": "Stamps 76-80 - Four Stamps obtained",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptOne(|@Starter Estates:4|)}"
+        },
+        {
+            "name": "Stamps 76-80 - Five Stamps obtained",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptOne(|@Starter Estates:5|)}"
+        },
+        {
+            "name": "Stamp 81 - Celebrity",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptOne(|Penthouse Estate|)}"
+        },
+        {
+            "name": "Stamp 82 - Traveler",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptOne(|Villa Estate|)}"
+        },
+        {
+            "name": "Stamp 83 - Transient",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptOne(|@Estates:2|)}"
+        },
+        {
+            "name": "Stamp 86 - Star",
+            "category": ["Stampsanity - Simple", "AR Stamps"],
+            "requires": "|@Stage Cards|"
+        },
+        {
+            "name": "Stamp 87 - Idol",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|@Stage Cards:ALL|"
+        },
+        {
+            "name": "Stamp 88 - Doll",
+            "category": ["Stampsanity - Simple", "AR Stamps"],
+            "requires": "|@Character Cards|"
+        },
+        {
+            "name": "Stamp 89 - Angel",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|AR Card - Hatsune Miku|"
+        },
+        {
+            "name": "Stamp 90 - Princess",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|AR Card - Kagamine Rin|"
+        },
+        {
+            "name": "Stamp 91 - Prince",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|AR Card - Kagamine Len|"
+        },
+        {
+            "name": "Stamp 92 - Queen",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|AR Card - Megurine Luka|"
+        },
+        {
+            "name": "Stamp 93 - Hero",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|AR Card - KAITO|"
+        },
+        {
+            "name": "Stamp 94 - Heroine",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|AR Card - MEIKO|"
+        },
+        {
+            "name": "Stamp 95 - Supermodel",
+            "category": ["Stampsanity - Full", "AR Stamps"],
+            "requires": "|@AR Cards|"
+        },
+        {
+            "name": "Stamp 96 - Actor",
+            "category": ["Stampsanity - Simple"]
+        },
+        {
+            "name": "Stamp 97 - Choreographer",
+            "category": ["Stampsanity - Simple"]
+        },
+        {
+            "name": "Stamp 99 - Dancer",
+            "category": ["Stampsanity - Full"]
+        },
+        {
+            "name": "Stamp 100 - Performer",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll|@Clover Club| and |@Tricolore Airline| and |@No Logic| and |@Yumeyume| and |@KONEKO NO PAYAPAYA| and |@Invisible| and |@Gaikotsu Gakudan to Riria| and |@Electric Angel| and |@The World is Mine| and |@Romeo and Cinderella| and |@1 2 Fanclub| and |@Piano X Forte X Scandal| and |@Snowman| and |@Terekakushi Shishunki| and |@Electric Love| and |@Ageage Again| and |@shake it!| and |@ARIFURETA SEKAI SEIFUKU| and |@Nice To Meet You, Mr. Earthling| and |@Senbonzakura|}"
+        },
+        {
+            "name": "Stamp 101 - Beginner",
+            "category": ["Stampsanity - Simple"]
+        },
+        {
+            "name": "Stamp 106 - Puyo Popper",
+            "category": ["Stampsanity - Simple", "Puyo Puyo 39!"]
+        },
+        {
+            "name": "Stamp 107 - Puyo Poppist",
+            "category": ["Stampsanity - Simple", "Puyo Puyo 39!"]
+        },
+        {
+            "name": "Stamp 108 - Puyo Elite",
+            "category": ["Stampsanity - Simple", "Puyo Puyo 39!"]
+        },
+        {
+            "name": "Stamp 109 - Puyo Master",
+            "category": ["Stampsanity - Full", "Puyo Puyo 39!"]
+        },
+        {
+            "name": "Stamp 110 - Bayoen",
+            "category": ["Stampsanity - Simple", "Puyo Puyo 39!"],
+            "requires": "{YamlDisabled(vocaloid_lock)}"
+        },
+        {
+            "name": "Stamp 111 - Cameraman",
+            "category": ["Stampsanity - Simple"]
+        },
+        {
+            "name": "Stamp 112 - Informer",
+            "category": ["Stampsanity - Full"]
+        },
+        {
+            "name": "Stamp 113 - Gumite",
+            "category": ["Stampsanity - Simple"],
+            "requires": "{OptAll(|@Happy Synthesizer| and |@Matroyshka| and |@Invisible| and |@1 2 Fanclub|)}"
+        },
+        {
+            "name": "Small Items - Miku Figurine",
+            "category": ["Shopsanity"],
             "prehint": true
         },
         {
-            "name": "Beat the Game - Sentinel",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Sentinel|"
+            "name": "Small Items - Rin Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hulk|"
+            "name": "Small Items - Len Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Super-Skrull",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Super-Skrull|"
+            "name": "Small Items - Luka Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Hsien-Ko",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Hsien-Ko|"
+            "name": "Small Items - MEIKO Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Haggar",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Haggar|"
+            "name": "Small Items - KAITO Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - C. Viper",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|C. Viper|"
+            "name": "Small Items - GUMI Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Amaterasu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Amaterasu|"
+            "name": "Small Items - Cheer Miku Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Phoenix",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Phoenix|"
+            "name": "Small Items - Sakura Miku Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Magneto",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Magneto|"
+            "name": "Small Items - Yukata Miku Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - She-Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|She-Hulk|"
+            "name": "Small Items - Halloween Miku Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Beat the Game - Taskmaster",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Taskmaster|"
-        },
-
-        {
-            "name": "We Saved the World!",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Marvel event| and |Capcom event|"
+            "name": "Small Items - Snow Miku Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Marvel%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Marvel event|"
+            "name": "Small Items - Snow Miku 2014",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Capcom%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Capcom event|"
+            "name": "Small Items - Snow Miku 2015",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Stars%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "{ItemValue(star:10)} and {ItemValue(coins:10)}"
-        },
-
-        {
-            "name": "Test dont_place_item alone",
-            "id": 200,
-            "requires": "",
-            "dont_place_item": ["Test item A"],
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Hachune Miku Doll",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Test place_item alone",
-            "requires": "",
-            "place_item": ["Test item A"],
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Mikudayo Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Test dont_place_item_category alone",
-            "requires": "",
-            "dont_place_item_category": ["place_item_category_test"],
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Mirai Figurine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Test place_item_category alone",
-            "requires": "",
-            "place_item_category": ["place_item_category_test"],
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Rabbit Yukine",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Test place_item_category + dont_place_item",
-            "place_item_category": ["place_item_category_test"],
-            "dont_place_item": ["Test item B"],
-            "requires": "",
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Rabbit Yukine 2015",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Test place_item_category + dont_place_item_category",
-            "place_item_category": ["place_item_category_test"],
-            "dont_place_item_category": ["dont_place_item_category_test"],
-            "requires": "",
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Roadroller",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Free location for tests items 1",
-            "_comment": "added those so we don't have more items than locations",
-            "requires": "",
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Maneki-Neko",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Free location for tests items 2",
-            "requires": "",
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Interior Lamp",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Free location for tests items 3",
-            "requires": "",
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Galileo Thermometer",
+            "category": ["Shopsanity"],
+            "prehint": true
         },
         {
-            "name": "Free location for tests items 4",
-            "requires": "",
-            "category": ["For_Tests_And_Examples"]
+            "name": "Small Items - Kinetic Balls",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Dancing Flower",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Venusian Probe",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Sonic the Hedgehog",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Opa-Opa",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Puyo",
+            "category": ["Shopsanity", "Puyo Puyo 39!"],
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Curious Schoolhouse",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |Mousou Sketch|) or ({YamlEnabled(split_up_songs)} and (|Mousou Sketch - Tap/Hard| or |Mousou Sketch - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Minicar",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |Piano X Forte X Scandal|) or ({YamlEnabled(split_up_songs)} and (|Piano X Forte X Scandal - Tap/Hard| or |Piano X Forte X Scandal - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Matryoshka Doll",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |Matryoshka|) or ({YamlEnabled(split_up_songs)} and (|Matryoshka - Tap/Hard| or |Matryoshka - Button/Hard| or |Matryoshka - Tap/SUPER Hard| or |Matryoshka - Button/SUPER Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Marching Dog",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |Doremifa Rondo|) or ({YamlEnabled(split_up_songs)} and (|Doremifa Rondo - Tap/Hard| or |Doremifa Rondo - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Streetcar",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |1925|) or ({YamlEnabled(split_up_songs)} and (|1925 - Tap/Hard| or |1925 - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Snow Globe",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |Snowman|) or ({YamlEnabled(split_up_songs)} and (|Snowman - Tap/Hard| or |Snowman - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Aimaina-chan",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |ARIFURETA SEKAI SEIFUKU|) or ({YamlEnabled(split_up_songs)} and (|ARIFURETA SEKAI SEIFUKU - Tap/Hard| or |ARIFURETA SEKAI SEIFUKU - Button/Hard| or |ARIFURETA SEKAI SEIFUKU - Tap/SUPER Hard| or |ARIFURETA SEKAI SEIFUKU - Button/SUPER Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Skeleton Orchestra",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |Gaikotsu Gakudan to Riria|) or ({YamlEnabled(split_up_songs)} and (|Gaikotsu Gakudan to Riria - Tap/Hard| or |Gaikotsu Gakudan to Riria - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Small Items - Mirai Fortune Box",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Roses",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Sunflowers",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Mystery Fruit",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Mystery Blossom",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Leeks",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Red Loveseat",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Black Loveseat",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Modern Loveseat",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Fan",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Furnace",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Jukebox",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Telescope",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Canvas",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Stuffed Panda",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Teddy Bear",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Stuffed Rabbit",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |LOL -lots of laugh-|) or ({YamlEnabled(split_up_songs)} and (|LOL -lots of laugh- - Tap/Hard| or |LOL -lots of laugh- - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Electric Guitar",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |Yumeyume|) or ({YamlEnabled(split_up_songs)} and (|Yumeyume - Tap/Hard| or |Yumeyume - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Large Speaker",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Electronic Dartboard",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Treadmill",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Arcade Machine",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Robo-Vacuum",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Monolith",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Medium Items - Otoro Cushion",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Long Red Sofa",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Long Black Sofa",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Long Modern Sofa",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Red Patio Set",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Blue Patio Set",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Swingset",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - DJ Booth",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Piano",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Aquarium",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Panda Kart",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(split_up_songs)} and |1 2 Fanclub|) or ({YamlEnabled(split_up_songs)} and (|1 2 Fanclub - Tap/Hard| or |1 2 Fanclub - Button/Hard|))",
+            "prehint": true
+        },
+        {
+            "name": "Large Items - Hang-On Bike",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Proj. Mirai Poster",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Proj. Mirai 2 Poster",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Mirai DX Poster",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Tricolore Airline Post.",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Senbonzakura Poster",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - SING&SMILE Poster",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Kokoro Poster",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Doremifa Rondo Post.",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Fine Art (A)",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Fine Art (B)",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Fine Art (C)",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Wall Scroll",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Calendar",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Wall Clock",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Wall Items - Photo Panel",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Ceiling Items - Jet Plane",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Ceiling Items - Biplane",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Ceiling Items - Blimp",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Ceiling Items - UFO",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Ceiling Items - Super KAITO",
+            "category": ["Shopsanity"],
+            "requires": "{YamlEnabled(puyo_puyo_locations)}",
+            "prehint": true
+        },
+        {
+            "name": "Water Items - Rubber Ducky",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Water Items - Swim Ring",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Water Items - Submarine",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Water Items - Tako Luka",
+            "category": ["Shopsanity"],
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Deep Sea Girl",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Deep Sea Girl|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Animal Fortune-telling",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Animal Fortune-telling|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - The World is Mine",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@The World is Mine|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Ageage Again",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Ageage Again|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Clover Club",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |KAITO|)) and |@Clover Club|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Yumeyume",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Yumeyume|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Doremifa Rondo",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Yumeyume|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - reverse rainbow",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |Kagamine Rin|)) and |@reverse rainbow|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - KONEKO NO PAYAPAYA",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |MEIKO|)) and |@KONEKO NO PAYAPAYA|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Hello/How are you?",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and ({YamlDisabled(split_up_songs) and |Hello/How are you?|}) or ({YamlEnabled(split_up_songs) and |@Hello/How are you?|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - PIANO*GIRL",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@PIANO*GIRL|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - SING&SMILE",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |Kagamine Rin| and |MEIKO|)) and ({YamlDisabled(split_up_songs) and |SING&SMILE|}) or ({YamlEnabled(split_up_songs) and |@SING&SMILE|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - 1/6 -out of the gravity-",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and ({YamlDisabled(split_up_songs) and |1/6 -out of the gravity-|}) or ({YamlEnabled(split_up_songs) and |@1/6 -out of the gravity-|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Mousou Sketch",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Mousou Sketch|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - 1925",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |KAITO|)) and |@1925|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Matryoshka",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |GUMI|)) and |@Matryoshka|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Cendrillon",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |KAITO|)) and |@Cendrillon|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - *Hello, Planet.",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and ({YamlDisabled(split_up_songs) and |*Hello, Planet.|}) or ({YamlEnabled(split_up_songs) and |@*Hello, Planet.|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Romeo and Cinderella",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Romeo and Cinderella|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - LOL -lots of laugh-",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@LOL -lots of laugh-|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Senbonzakura",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Senbonzakura|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Gaikotsu Gakudan to Riria",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Gaikotsu Gakudan to Riria|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - ARIFURETA SEKAI SEIFUKU",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@ARIFURETA SEKAI SEIFUKU|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Electric Love",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Electric Love|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Electric Angel",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Electric Angel|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Interviewer",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |Megurine Luka|)) and |@Interviewer|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Tricolore Airline",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |Kagamine Rin| and |Megurine Luka|)) and |@Tricolore Airline|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Piano X Forte X Scandal",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |MEIKO|)) and |@Piano X Forte X Scandal|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Kimi no Taion",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Kimi no Taion|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - glow",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@glow|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Nice To Meet You, Mr. Earthling",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Nice To Meet You, Mr. Earthling|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - shake it!",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku| and |Kagamine Rin| and |Kagamine Len|)) and |@shake it!|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Sakura Miku",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Hatsune Miku: Halloween",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Santa Miku",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |Credits played|",
+            "_comment": "Clear the first 47 songs.",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Snow Miku: Fluffy Coat",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Snow Miku: White Kimono",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Snow Miku: Magical Snow",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Snow Miku: Snow Bell",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Yukata",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Pajamas",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - MiCrystal *",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|)) and |@Stages|",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Sugar*Soldier Uniform",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Miku Outfits - Arle",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Hatsune Miku|))",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Sweet Magic",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin|)) and |@Sweet Magic|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Animal Fortune-telling",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku|)) and |@Animal Fortune-telling|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Amatsu Kitsune",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin|)) and |@Amatsu Kitsune|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - reverse rainbow",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku|)) and |@reverse rainbow|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Kokoro",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin|)) and |@Kokoro|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - SING&SMILE",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku| and |MEIKO|)) and ({YamlDisabled(split_up_songs) and |SING&SMILE|}) or ({YamlEnabled(split_up_songs) and |@SING&SMILE|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Mousou Sketch",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku|)) and |@Mousou Sketch|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - 1925",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku| and |KAITO|)) and |@1925|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Adolescence",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Kagamine Len|)) and |@Adolescence|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Romeo and Cinderella",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku|)) and |@Romeo and Cinderella|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Aku no Musume",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin|)) and |@Aku no Musume|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Invisible",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |GUMI|)) and |@Invisible|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Melancholic",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin|)) and |@Melancholic|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - 1 2 Fanclub",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |GUMI|)) and |@1 2 Fanclub|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Electric Angel",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku|)) and |@Electric Angel|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Tricolore Airline",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku| and |Megurine Luka|)) and |@Tricolore Airline|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Piano X Forte X Scandal",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |MEIKO|)) and |@Piano X Forte X Scandal|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - shake it!",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin| and |Hatsune Miku| and |Kagamine Len|)) and |@shake it!|",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Yukata",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin|))",
+            "prehint": true
+        },
+        {
+            "name": "Rin Outfits - Pajamas",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Rin|))",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - Terekakushi Shishunki",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len|)) and |@Terekakushi Shishunki|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - reverse rainbow",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len| and |Hatsune Miku| and |Kagamine Rin|)) and |@reverse rainbow|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - SING&SMILE",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len| and |Hatsune Miku| and |Kagamine Rin| and |MEIKO|)) and ({YamlDisabled(split_up_songs) and |SING&SMILE|}) or ({YamlEnabled(split_up_songs) and |@SING&SMILE|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - 1925",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len| and |Hatsune Miku| and |KAITO|)) and |@1925|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - Adolescence",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len| and |Kagamine Rin|)) and |@Adolescence|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - Aku no Meshitsukai",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len| and |Kagamine Rin|)) and |@Aku no Meshitsukai|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - Snowman",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len| and |KAITO|)) and |@Snowman|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - shake it!",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len| and |Hatsune Miku| and |Kagamine Rin|)) and |@shake it!|",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - Yukata",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len|))",
+            "prehint": true
+        },
+        {
+            "name": "Len Outfits - Pajamas",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Kagamine Len|))",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Animal Fortune-telling",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |Hatsune Miku|)) and |@Animal Fortune-telling|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - reverse rainbow",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |Hatsune Miku| and |Kagamine Rin|)) and |@reverse rainbow|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Happy Synthesizer",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |GUMI|)) and |@Happy Synthesizer|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - SING&SMILE",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |Hatsune Miku| and |Kagamine Rin| and |MEIKO|)) and ({YamlDisabled(split_up_songs) and |SING&SMILE|}) or ({YamlEnabled(split_up_songs) and |@SING&SMILE|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - 1925",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |Hatsune Miku| and |KAITO|)) and |@1925|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - No Logic",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka|)) and |@No Logic|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Romeo and Cinderella",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |Hatsune Miku|)) and |@Romeo and Cinderella|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Electric Angel",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |Hatsune Miku|)) and |@Electric Angel|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Interviewer",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka|)) and |@Interviewer|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Tricolore Airline",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka| and |Hatsune Miku| and |Kagamine Rin|)) and |@Tricolore Airline|",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Yukata",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka|))",
+            "prehint": true
+        },
+        {
+            "name": "Luka Outfits - Pajamas",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |Megurine Luka|))",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Terekakushi Shishunki",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO| and |Kagamine Len|)) and |@Terekakushi Shishunki|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Clover Club",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO| and |Hatsune Miku|)) and |@Clover Club|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - SING&SMILE",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO| and |Hatsune Miku| and |Kagamine Rin| and |MEIKO|)) and ({YamlDisabled(split_up_songs) and |SING&SMILE|}) or ({YamlEnabled(split_up_songs) and |@SING&SMILE|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - 1925",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO| and |Hatsune Miku|)) and |@1925|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Cendrillon",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO| and |Hatsune Miku|)) and |@Cendrillon|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - on the rocks",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO| and |MEIKO|)) and |@on the rocks|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Snowman",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO|)) and |@Snowman|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Piano X Forte X Scandal",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO| and |MEIKO|)) and |@Piano X Forte X Scandal|",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Yukata",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO|))",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Pajamas",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO|))",
+            "prehint": true
+        },
+        {
+            "name": "KAITO Outfits - Dark Prince",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |KAITO|))",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - Animal Fortune-telling",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO| and |Hatsune Miku|)) and |@Animal Fortune-telling|",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - KONEKO NO PAYAPAYA",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO| and |Hatsune Miku|)) and |@KONEKO NO PAYAPAYA|",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - SING&SMILE",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO| and |Hatsune Miku| and |Kagamine Rin|)) and ({YamlDisabled(split_up_songs) and |SING&SMILE|}) or ({YamlEnabled(split_up_songs) and |@SING&SMILE|",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - 1925",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO| and |Hatsune Miku| and |KAITO|)) and |@1925|",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - on the rocks",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO| and |KAITO|)) and |@on the rocks|",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - Tricolore Airline",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO| and |Hatsune Miku| and |Kagamine Rin| and |Megurine Luka|)) and |@Tricolore Airline|",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - Piano X Forte X Scandal",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO| and |Hatsune Miku|)) and |@Piano X Forte X Scandal|",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - Yukata",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO|))",
+            "prehint": true
+        },
+        {
+            "name": "MEIKO Outfits - Pajamas",
+            "category": ["Shopsanity"],
+            "requires": "({YamlDisabled(vocaloid_lock)} or ({YamlEnabled(vocaloid_lock)} and |MEIKO|))",
+            "prehint": true
         }
     ]
 }
-

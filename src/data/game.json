@@ -1,35 +1,18 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
-    "game": "UltimateMarvelVsCapcom3",
-    "creator": "ManualTeam",
-
-    "filler_item_name": "Free Character of Your Choice",
-    "glitches_item_name": "UT Glitches",
-
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.game.schema.json",
+    "game": "Hatsune Miku: Project Mirai DX",
+    "creator": "Jirachi",
+    "filler_item_name": "Music Note",
+    "death_link": true,
     "starting_items": [
         {
-            "items": ["Ryu", "Akuma"]
+            "_comment": "if Vocaloid Lock is enabled: a random Vocaloid"
         },
         {
-            "item_categories": ["Left Side"],
-            "random": 1
+            "_comment": "if Estate lock is enabled: a random starting estate"
         },
         {
-            "items": ["Wolverine", "Storm", "Phoenix"],
-            "random": 1
-        },
-        {
-            "item_categories": ["Trash"]
-        },
-        {
-            "random": 3
-        },
-        {
-            "items": ["Deadpool"],
-            "yaml_option": ["start_with_deadpool"]
+            "_comment": "if songs are not split-up, one random starting song. If they are split-up, up to six random stages (dependent on other options like vocaloid lock, split-up songs and input lock). Every split-up stage given to the player at the beginning must be completable and related locations in logic. -> starting with Len/KAITO/MEIKO with split-up songs, input lock and one mode only makes the player start with one single stage, which is intentional."
         }
-    ],
-    "death_link": false,
-    "starting_index": 1,
-    "unused_goals_are_locations": false
+    ]
 }

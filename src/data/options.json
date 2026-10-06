@@ -1,15 +1,28 @@
 {
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
-    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "core": {
         "goal":{
-            "_comment": [
-                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
-            ],
             "display_name": "The End Objective",
-            "description": "How to End your Randomized playthrough.",
-            "aliases": {"easiest": 0},
-            "hidden": false
+            "description": [
+                "Your objective in order to finish your randomized playthrough of Project Mirai DX.",
+                "",
+                "Credits: The game is finished once the credits play out. This happens after beating every song except for \"shake it!\", which usually is unlocked after viewing the credits.",
+                "",
+                "X songs: The game is finished once X unique songs have been cleared. Mode and difficulty do not matter. Can either be used for a shorter session or if you want to play through all 48 songs.",
+                "",
+                "X% Hard stages: The game is finished once x unique Hard or SUPER Hard stages have been cleared. Certain options may affect the total amount of Hard or SUPER Hard stages that can be played.",
+                "",
+                "Mirai Token hunt: Places Mirai Tokens into the item pool, of which a defined amount have to be found. This turns your Project Mirai DX game into a Macguffin item hunt, somewhat similar to Power Stars from Super Mario 64 or (Golden) Yoshi Eggs from Super Mario World."
+            ],
+            "values": {
+                "Credits": 0,
+                "X songs": 1,
+                "X% Hard stages": 2,
+                "Mirai Token hunt": 3
+            },
+            "default": 0,
+            "group": "Goal",
+            "_comment": ""
         },
         "death_link": {
             "default": false
@@ -17,66 +30,359 @@
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "values": {
-                "recommended": 20
+                "recommended": 5
             }
         }
     },
     "user": {
-        "_commented_out_option":{
-            "type": "Toggle",
-            "default": true
-        },
-        "Example_Toggle":{
+        "goal_song_count": {
+            "type": "Range",
+            "display_name": "Goal Song Count",
             "description": [
-                "This is a Toggle",
-                "A simple boolean, aka True or False set the initial value with \"default\""
+                "Determines the amount of songs that have to be cleared in order for the game to be finished, if \"X songs\" was chosen as the goal. Mode and difficulty don't matter, one clear per song is enough."
             ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Example Options"
+            "range_start": 1,
+            "range_end": 48,
+            "default": 48,
+            "group": "Goal",
+            "_comment": ""
         },
-        "Example_Choice":{
-            "type": "Choice",
+        "hard_stage_percentage": {
+            "type": "Range",
+            "display_name": "Hard Stage Percentage",
             "description": [
-                "This is a Choice",
-                "Let the user pick from a list of values",
-                "allow_custom_value let a player define their own text value",
-                "Currently the only use for Choice in Manual outside of hooks is the goal"
+                "Determines the amount of Hard and SUPER Hard stages that have to be cleared in order for the game to be finished, if \"X% Hard stages\" was chosen as the goal. The options for enabled modes and available difficulties can affect the maximum amount of hard stages."
+            ],
+            "range_start": 1,
+            "range_end": 100,
+            "default": 70,
+            "group": "Goal",
+            "_comment": ""
+        },
+        "mirai_token_count":{
+            "type": "Range",
+            "display_name": "Mirai Token Count",
+            "description": [
+                "Determines the amount of Mirai Tokens to attempt to place into the item pool. Mirai Tokens are only put into the pool if \"Mirai Token Hunt\" is chosen as the goal."
+            ],
+            "range_start": 1,
+            "range_end": 300,
+            "default": 10,
+            "group": "Goal",
+            "_comment": ""
+        },
+        "mirai_token_percentage": {
+            "type": "Range",
+            "display_name": "Mirai Token Percentage",
+            "description": [
+                "Determines the amount of Mirai Tokens the player has to collect, relative to the amount that exist in the item pool."
+            ],
+            "range_start": 1,
+            "range_end": 100,
+            "default": 70,
+            "group": "Goal",
+            "_comment": ""
+        },
+        "available_modes": {
+            "type": "Choice",
+            "display_name": "Available Modes",
+            "description": [
+                "Which modes (tap and/or button) are enabled and allow for granting checks."
             ],
             "values": {
-                "start":0,
-                "test":1
-             },
+                "Both modes": 0,
+                "Tap only": 1,
+                "Button only": 2
+            },
             "default": 0,
-            "allow_custom_value": false,
-            "group": "Example Options"
+            "group": "Songs",
+            "_comment": ""
         },
-        "Example_Range":{
-            "type": "Range",
-            "description": [
-                "This is a Range",
-                "Allow the player to specify a value between 'start' and 'end'",
-                "if you include a \"values\" you can define the label for certain values",
-                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
-            ],
-            "range_start": 0,
-            "default": 1,
-            "range_end": 5,
-            "values": {"example": 2},
-            "group": "Example Options"
-        },
-
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
+        "split_up_songs":{
             "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
+            "display_name": "Split-up songs",
+            "description": [
+                "Splits up the song items into their individual stages (combination of song + mode + difficulty level), greatly expanding the amount of unique song-related items in the pool. This does not affect available locations, as locations are determined by a unique song/mode/difficulty combination instead of just by the song. For example, Finder gets one item for every mode and difficulty if this option is off, and three or six separate items (see the \"Available Modes\" option) if this option is turned on. Locations meanwhile exist for every of the six unique mode/difficulty combinations, no matter if songs are split-up or not."
             ],
-            "default": true
+            "default": false,
+            "group": "Songs",
+            "_comment": ""
+        },
+        "maximum_difficulty": {
+            "type": "Choice",
+            "display_name": "Maximum difficulty",
+            "description": [
+                "What the maximum difficulty for a stage should be in order for it to grant a check. Anything more difficult will not grant a check and is thus completly optional for the player to do.",
+                "Note: This has no effect on Stampsanity.",
+                "",
+                "No restrictions: Any stage with any difficulty, including SUPER Hard, can appear.",
+                "",
+                "\"Hard\": Disables SUPER Hard stages. Regarding the numeric values, this is functionally identical to \"9\".",
+                "",
+                "The number values 8 to 6 disable SUPER Hards plus any Hard stages with a difficulty level greater than the selected maximum difficulty. For example, \"8\" disables SUPER Hards plus the Button/Hard stages for Matryoshka, Invisible, Gaikotsu Gakudan to Riria and Kimi no Taion, as they have a difficulty level of 9.",
+                "",
+                "\"Normal\" disables Hard and SUPER Hard stages, and \"Easy\" additionally disables Normal stages.",
+                "",
+                "The options \"Normal\" and \"Easy\" are not compatible with the \"Clear X% Hard stages\" option for the goal."
+            ],
+            "values": {
+                "No restrictions": 0,
+                "Hard": 1,
+                "8": 2,
+                "7": 3,
+                "6": 4,
+                "Normal": 5,
+                "Easy": 6
+            },
+            "default": 0,
+            "group": "Songs",
+            "_comment": "If songs are split-up, this affects available locations and obtainable items. If they're not split-up, this only affects locations."
+        },
+        "stage_completion_rank_criteria": {
+            "type": "Choice",
+            "display_name": "Stage completion rank criteria",
+            "description": [
+                "Decides at what rank a check should be sent. Regardless of the option chosen here, a check will always be sent when a stage is cleared for the first time.",
+                "",
+                "Off: Rank-specific locations are turned off.",
+                "",
+                "S: Grants a check when a stage is cleared with an S rank or higher.",
+                "",
+                "S+: Grants a check when a stage is cleared with an S+ rank.",
+                "",
+                "S + S+: Grants a check when a stage is cleared with an S rank and and an additional one when it is cleared with an S+ rank. Getting an S+ rank still also gives you the check for getting an S rank."
+            ],
+            "values": {
+                "Off": 0,
+                "S": 1,
+                "S+": 2,
+                "S + S+": 3
+            },
+            "default": 0,
+            "group": "Songs",
+            "_comment": ""
+        },
+        "sp_all_check_on_clear": {
+            "type": "Choice",
+            "display_name": "SP ALL check on clear",
+            "description": [
+                "If a check should be sent when all special targets (SP) have been hit in a stage.",
+                "",
+                "Off: Do not grant a check when a stage has been completed with all SP hit.",
+                "",
+                "On: Additionally grants a check when all SP have been hit in a stage for the first time.",
+                "",
+                "Exclude very difficult stages: Same as the previous option, but SP ALL locations are not added for SUPER Hard stages as well as difficulty 9 button stages."
+            ],
+            "values": {
+                "Off": 0,
+                "On": 1,
+                "Exclude very difficult stages": 2
+            },
+            "default": 0,
+            "group": "Songs",
+            "_comment": ""
+        },
+        "perfect_check_on_clear": {
+            "type": "Choice",
+            "display_name": "PERFECT check on clear",
+            "description": [
+                "If a check should be sent when all targets have been hit in a stage without making a mistake.",
+                "",
+                "Off: Do not grant a check when a stage has been perfected.",
+                "",
+                "On: Grant a check when a stage has been perfected for the first time.",
+                "",
+                "Exclude very difficult stages: Same as the previous option, but PERFECT locations are not added for SUPER Hard stages as well as difficulty 9 button stages."
+            ],
+            "values": {
+                "Off": 0,
+                "On": 1,
+                "Exclude very difficult stages": 2
+            },
+            "default": 0,
+            "group": "Songs",
+            "_comment": ""
+        },
+        "mp_filler_items":{
+            "type": "Toggle",
+            "display_name": "MP Filler Items",
+            "description": [
+                "Adds various filler items and traps regarding MP, the in-game currency. Obtaining these items allows you to manually edit the save file with a hex-editor to increase or decrease the amount of MP you have. Not recommended if you're playing on a 3DS or don't want to deal with manually editing your save file."
+            ],
+            "default": false,
+            "group": "Filler items"
+        },
+        "joke_filler_items":{
+            "type": "Toggle",
+            "display_name": "Joke Filler Items",
+            "description": [
+                "Adds various types of joke and relatable filler items to the pool. This option does not affect gameplay at all."
+            ],
+            "default": true,
+            "group": "Filler itesm"
+        },
+        "vocaloid_lock": {
+            "type": "Toggle",
+            "display_name": "Vocaloid Lock",
+            "description": [
+                "Locks partners, their outfits and songs behind Vocaloid items representing the Vocaloids that take part in a song's PV (even if they don't sing a line, like KAITO in Clover♣Club). This also makes the player start with only one random Vocaloid (excluding GUMI).",
+                "",
+                "The following characters lock these songs until they're found:",
+                "",
+                "Hatsune Miku (32): Finder (DSLR remix-re:edit); Deep Sea Girl; Animal Fortune-telling; The World is Mine; Ageage Again; Clover♣Club; Yumeyume; Doremifa Rondo; reverse rainbow; KONEKO NO PAYAPAYA; Hello/How are you?; PIANO*GIRL; SING&SMILE; 1/6 -out of the gravity-; Mousou Sketch; 1925; Matryoshka; Cendrillon; *Hello, Planet.;",
+                "Romeo and Cinderella; LOL -lots of laugh-; Senbonzakura; Gaikotsu Gakudan to Riria; ARIFURETA SEKAI SEIFUKU; Electric Love;",
+                "Electric Angel; Tricolore Airline; Kimi no Taion; glow; Nice To Meet You, Mr. Earthling; Watashi no jikan; shake it!",
+                "",
+                "Kagamine Rin (13): Sweet Magic; Amatsu Kitsune; reverse rainbow; Kokoro; SING&SMILE; Adolescence; Aku no Musume; Aku no Meshitsukai; Invisible; Melancholic; 1 2 Fanclub; Tricolore Airline, shake it!",
+                "",
+                "Kagamine Len (4): Terekakushi Shishunki; Adolescence; Aku no Meshitsukai; shake it!",
+                "",
+                "Megurine Luka (4): Happy Synthesizer; No Logic; Interviewer; Tricolore Airline",
+                "",
+                "KAITO (5): Clover♣Club; 1925; Cendrillon; on the rocks; Snowman",
+                "",
+                "MEIKO (4): KONEKO NO PAYAPAYA; SING&SMILE; on the rocks; Piano X Forte X Scandal",
+                "",
+                "GUMI (4): Happy Synthesizer; Matryoshka; Invisible; 1 2 Fanclub",
+                "",
+                "Again, these aren't the songs unlocked at the start, but rather the songs locked behind that Vocaloid. If a song features multiple characters, like Happy Synthesizer, all of them have to be unlocked in order for the song to be considered playable. Other configurations, like Rin and Luka for Romeo and Cinderella, aren't considered by the Vocaloid Lock.",
+                "Note: Vocaloid Lock affects which save file you have to choose at the beginning."
+            ],
+            "default": false,
+            "group": "Locks",
+            "_comment": ""
+        },
+        "estate_lock": {
+            "type": "Toggle",
+            "display_name": "Estate Lock",
+            "description": [
+                "Locks estates behind estate items.",
+                "Enabling this option makes the player start with only one random estate (excluding penthouse and villa) and adds 6 items for the other four free estates and two paid estates. More interesting with Stampsanity enabled.",
+                "Note: Estate lock affects which save file you have to choose at the beginning, and it also applies to any partner you don't start with."
+            ],
+            "default": false,
+            "group": "Locks",
+            "_comment": ""
+        },
+        "input_lock": {
+            "type": "Toggle",
+            "display_name": "Input Lock",
+            "description": [
+                "Whether to lock two tap panels and two buttons, used in Normal, Hard and SUPER Hard stages, behind two pairs of progressive unlock items.",
+                "",
+                "If enabled, the player only starts off with one tap panel as well as the A and B buttons. Two progressive tap panels and two progressive buttons are added to the item pool, unlocking the ability to use one more panel or button and making higher difficulties easier/possible when found. Additionally, progressive panels / buttons are logically required to unlock harder stages. One panel or button is required to play Normal stages, and two are required for Hard and SUPER Hard stages (regardless if songs are split-up or not). If songs are split up, only Easy stages will be available at the beginning."
+            ],
+            "default": false,
+            "group": "Locks",
+            "_comment": ""
+        },
+        "menu_lock":{
+            "type": "Toggle",
+            "display_name": "Menu Locks",
+            "description": [
+                "Locks most menu options and Mirai Town locations behind items. You only start with the Rhythm Game / Mirai Theater and the Stamps. If stampsanity is enabled, then this will lock most Sphere 1 stamps behind these items."
+            ],
+            "default": false,
+            "group": "Locks",
+            "_comment": ""
+        },
+        "shopsanity": {
+            "type": "Toggle",
+            "display_name": "Shopsanity",
+            "description": [
+                "Adds locations for every outfit and furniture item available in the shop. They all come with pre-hints for the manual tracker. Items for outfits and furniture are not added though and all exist locally in Project Mirai's world. Be careful of not forgetting to manually check a location when your partner orders something by mail."
+            ],
+            "default": false,
+            "group": "Locations",
+            "_comment": ""
+        },
+        "stampsanity": {
+            "type": "Choice",
+            "display_name": "Stampsanity",
+            "description": [
+                "Adds locations for obtaining stamps. See https://www.projectdiva.wiki/wiki/Stamp_Collection for information about obtaining stamps.",
+                "",
+                "Off: Obtaining stamps does not grant checks.",
+                "",
+                "Simple: Obtaining most stamps grants a check, excluding those listed below, those that can theoretically be done at any point (Sphere 1) but take a long time, or are dependent on those (e.g. becoming friends for 89-94).",
+                "",
+                "On: Obtaining any stamp grants a check (excluding those disabled from other stamp options). Ideal for singleplayer Archipelago sessions, as it includes some more time-consuming and time-of-day-dependent stamps.",
+                "",
+                "Note: Stamps requiring communication and very time-consuming stamps have no checks, even if all stamps are enabled. Additionally, stamps 1 (Start the game for the first time) and 55 (Fail 30 times in a stage) also don't grant checks due to their simplicity and incompatibility with Death Link respectively. For more information regarding which stamps are simple or random chance, check out the Stamps page in the GitHub repository."
+            ],
+            "values": {
+                "Off": 0,
+                "Simple": 1,
+                "On": 2
+            },
+            "default": 0,
+            "group": "Locations",
+            "_comment": ""
+        },
+        "friendship_locations":{
+            "type": "Toggle",
+            "display_name": "Friendship Locations",
+            "description": [
+                "Toggles locations, including those for stamps, that require raising your friendship levels with a partner. Remember, there's six of them in the game. Not ideal for short or sync sessions."
+            ],
+            "default": false,
+            "group": "Locations",
+            "_comment": ""
+        },
+        "random_chance_stamps": {
+            "type": "Toggle",
+            "display_name": "Random Chance Stamps",
+            "description": [
+                "Toggles locations for stamps obtained through random chance, like furniture interactions."
+            ],
+            "default": false,
+            "group": "Locations",
+            "_comment": ""
+        },
+        "mikuversi_stamps": {
+            "type": "Toggle",
+            "display_name": "Mikuversi Stamps",
+            "description": [
+                "Toggles locations for the three stamps related to Mikuversi (Stone flipping)."
+            ],
+            "default": false,
+            "group": "Locations",
+            "_comment": ""
+        },
+        "puyo_puyo_locations": {
+            "type": "Toggle",
+            "display_name": "Puyo Puyo Locations",
+            "description": [
+                "Toggles locations for the five stamps related to Puyo Puyo 39!.",
+                "",
+                "Note: Puyo Puyo 39! will be available even if not all Vocaloids have been unlocked (only relevant if Vocaloid lock is enabled). Just pretend they're not there and you're just seeing things."
+            ],
+            "default": false,
+            "group": "Locations",
+            "_comment": ""
+        },
+        "ar_stamps": {
+            "type": "Choice",
+            "display_name": "AR Stamps",
+            "description": [
+                "Decides the logic regarding AR stamps (85 - 95).",
+                "",
+                "Off: AR stamps do not grant checks. Ideal if you're playing on a PC emulator, if your 3DS camera is broken or if you tend to play late when the lighting is not ideal for the 3DS camera.",
+                "",
+                "On: Stamps 86 - 95 are added as locations.",
+                "Sidenote: The possibility of one or all of them being sphere 1 locations depends on the selected options for \"Vocaloid Lock\" and \"Stampsanity\". Stamps 86 and 88 will always be sphere 1 locations if this option is selected.",
+                "",
+                "Unlockable: AR stamps grant checks, but all 38 AR cards have to be unlocked through AR card items, which are added to the pool. No AR stamps can be obtained right from the start."
+            ],
+            "values": {
+                "Off": 0,
+                "On": 1,
+                "Unlockable": 2
+            },
+            "default": 0,
+            "group": "Locations",
+            "_comment": ""
         }
     }
-
 }

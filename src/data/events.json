@@ -1,28 +1,17 @@
 {
-	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.events.schema.json",
     "data": [
         {
-            "name": "Marvel event",
-            "requires": "|@Right Side:all|",
-            "visible": true
+            "name": "Stage complete",
+            "requires": "{@YamlCompare(goal == X songs)}"
         },
         {
-            "name": "Capcom event",
-            "requires": "|@Left Side:all|"
+            "name": "Hard stage complete",
+            "requires": "{@YamlCompare(goal == X% Hard stages)}"
         },
         {
-            "name": "Stars_event",
-            "copy_location": "Stars%"
-        },
-        {
-            "name": "X-Men Assemble",
-            "category": ["Right Side"],
-            "requires": "((|Wolverine|) OR |X-23|) AND |Storm| and |Magneto:1|"
-        },
-        {
-            "name": "Thunderbolts and Lightning",
-            "requires": "{CanReachLocation(Beat the Game - Storm)} and {CanReachLocation(Beat the Game - Thor)}",
-            "region": "Third Region"
+            "name": "Credits played",
+            "requires": "{OptAll(|@Characters:ALL|)} and |@Finder - DSLR remix-re:edit| and |@Sweet Magic| and |@Deep Sea Girl| and |@Animal Fortune-telling| and |@Terekakushi Shishunki| and |@The World is Mine| and |@Amatsu Kitsune| and |@Ageage Again| and |@Clover Club| and |@Yumeyume| and |@Doremifa Rondo| and |@revers rainbow| and |@KONEKO NO PAYAPAYA| and |@Hello/How are you?| and |@Kokoro| and |@PIANO*GIRL| and |@Happy Synthesizer| and |@SING&SMILE| and |@1/6 -out of the gravity-| and |@Mousou Sketch| and |@1925| and |@Matryoshka| and |@Cendrillon| and |@Adolescence| and |@on the rocks| and |@No Logic| and |@*Hello, Planet.| and |@Romeo and Cinderella| and |@LOL -lots of laugh-| and |@Senbonzakura| and |@Aku no Musume| and |@Aku no Meshitsukai| and |@Snowman| and |@Invisible| and |@Gaikotsu Gakudan to Riria| and |@ARIFURETA SEKAI SEIFUKU| and |@Electric Love| and |@Melancholic| and |@1 2 Fanclub| and |@Electric Angel| and |@Interviewer| and |@Tricolore Airline| and |@Piano X Forte X Scandal| and |@Kimi no Taion| and |@glow| and |@Nice To Meet You, Mr. Earthling| and |@Watashi no jikan|"
         }
     ]
 }

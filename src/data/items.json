@@ -1,519 +1,2701 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.items.schema.json",
     "data": [
         {
-            "name": "Item Name for OptionCount Example",
-            "count": 5,
-            "progression": true,
-            "category": ["For_Tests_And_Examples"]
+            "name": "Mirai Token",
+            "category": ["Mirai Token"],
+            "progression": true
         },
         {
-            "name": "Jill",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "value": {"star": 5, "coins": 3},
-            "sort-key": "row-0-1",
-            "classification_count": {"useful + progression": 1, "useful": 1},
-            "_comment": "In this example a copy of the 'Jill' item will be created that is useful & progression and another will be created just useful"
+            "name": "Hatsune Miku",
+            "category": ["Characters"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Shuma-Gorath",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "value": {"star": 5},
-            "progression": true,
-            "sort-key": "row-0-8"
+            "name": "Kagamine Rin",
+            "category": ["Characters"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Nemesis T-Type",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "value": {"coins": 7},
-            "progression": true,
-            "sort-key": "row-1-1"
+            "name": "Kagamine Len",
+            "category": ["Characters"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Firebrand",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-1-2"
+            "name": "Megurine Luka",
+            "category": ["Characters"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Strider Hiryu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-1-3"
+            "name": "KAITO",
+            "category": ["Characters"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Phoenix Wright",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-1-4"
+            "name": "MEIKO",
+            "category": ["Characters"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Nova",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-1-5"
+            "name": "GUMI",
+            "category": ["Characters"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Ghost Rider",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-1-6"
+            "name": "Cutesy Estate",
+            "category": ["Estates", "Starter Estates"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Hawkeye",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-1-7"
+            "name": "Futura Estate",
+            "category": ["Estates", "Starter Estates"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Doctor Strange",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-1-8"
+            "name": "Naturale Estate",
+            "category": ["Estates", "Starter Estates"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Chris",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-1"
+            "name": "Japonica Estate",
+            "category": ["Estates", "Starter Estates"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Arthur",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-2"
+            "name": "Yumeyume Estate",
+            "category": ["Estates", "Starter Estates"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Frank West",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-3"
+            "name": "Penthouse Estate",
+            "category": ["Estates"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Vergil",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-4"
+            "name": "Villa Estate",
+            "category": ["Estates"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Iron Fist",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-5"
+            "name": "My Room - Hang Out Mode",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Rocket Raccoon",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-6"
+            "name": "My Room - Dress-Up Mode",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Captain America",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-7"
+            "name": "My Room - Remodel Mode",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Dormammu",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-2-8"
+            "name": "My Room - Alarm Mode",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Wesker",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-1"
+            "name": "My Room - Change Partner",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Zero",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-2"
+            "name": "My Room - Puyo Puyo 39!",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Ryu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-3"
+            "name": "My Room - Profiles",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Dante",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-4"
+            "name": "My Room - Photo Album",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Deadpool",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-5"
+            "name": "My Room - Piano / Create Tune",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Wolverine",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-6"
+            "name": "Mirai Town - Outfits Shop (1F)",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Iron Man",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-7"
+            "name": "Mirai Town - Room Items Shop (2F)",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Doctor Doom",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-3-8"
+            "name": "Mirai Town - Snacks Shop (3F)",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Morrigan",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-1"
+            "name": "Mirai Town - Dance Studio",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Tron",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-2"
+            "name": "Mirai Town - Mirai Estates",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Chun-Li",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-3"
+            "name": "Mirai Town - AR Station",
+            "category": ["My Room"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Trish",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-4"
+            "name": "Progressive Buttons",
+            "category": ["Inputs"],
+            "count": 2,
+            "progression": true
         },
         {
-            "name": "X-23",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-5"
+            "name": "Progressive Tap Panel",
+            "category": ["Inputs"],
+            "count": 2,
+            "progression": true
         },
         {
-            "name": "Storm",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-6"
+            "name": "500 MP",
+            "category": ["MP Filler Items"],
+            "useful": true
         },
         {
-            "name": "Thor",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-7"
+            "name": "1000 MP",
+            "category": ["MP Filler Items"],
+            "useful": true
         },
         {
-            "name": "M.O.D.O.K.",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-4-8"
+            "name": "2000 MP",
+            "category": ["MP Filler Items"],
+            "useful": true
         },
         {
-            "name": "Felicia",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-1"
+            "name": "5000 MP",
+            "category": ["MP Filler Items"],
+            "useful": true
         },
         {
-            "name": "Spencer",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-2"
+            "name": "-500 MP",
+            "category": ["MP Filler Items"],
+            "trap": true
         },
         {
-            "name": "Akuma",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-3"
+            "name": "-1000 MP",
+            "category": ["MP Filler Items"],
+            "trap": true
         },
         {
-            "name": "Viewtiful Joe",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-4"
+            "name": "-2000 MP",
+            "category": ["MP Filler Items"],
+            "trap": true
         },
         {
-            "name": "Spider-Man",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-5"
+            "name": "AR Card - Hatsune Miku",
+            "category": ["AR Cards", "Character Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Sentinel",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-6"
+            "name": "AR Card - Kagamine Rin",
+            "category": ["AR Cards", "Character Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Hulk",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-7"
+            "name": "AR Card - Kagamine Len",
+            "category": ["AR Cards", "Character Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Super-Skrull",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-5-8"
+            "name": "AR Card - Megurine Luka",
+            "category": ["AR Cards", "Character Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Hsien-Ko",
-            "category": [
-                "Characters",
-                "Left Side",
-                "Trash"
-            ],
-            "progression": true,
-            "sort-key": "row-6-1"
+            "name": "AR Card - KAITO",
+            "category": ["AR Cards", "Character Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Haggar",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-6-2"
+            "name": "AR Card - MEIKO",
+            "category": ["AR Cards", "Character Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "C. Viper",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-6-3"
+            "name": "AR Card - Finder - DSLR remix-re:edit",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Amaterasu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true,
-            "sort-key": "row-6-4"
+            "name": "AR Card - Sweet Magic",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Phoenix",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-6-5"
+            "name": "AR Card - Terekakushi Shishunki",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Magneto",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-6-6"
+            "name": "AR Card - The World is Mine",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "She-Hulk",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-6-7"
+            "name": "AR Card - Ageage Again",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Taskmaster",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true,
-            "sort-key": "row-6-8"
+            "name": "AR Card - Clover Club",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test item A",
-            "id": 200,
-            "_comment": "This and the following items are there to make sure we tests everything against Archipelago's Unit tests",
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "dont_place_item_category_test"]
+            "name": "AR Card - Yumeyume",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test item B",
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test", "dont_place_item_category_test"]
+            "name": "AR Card - Doremifa Rondo",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test item C",
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test"]
+            "name": "AR Card - reverse rainbow",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test item D",
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test"]
+            "name": "AR Card - KONEKO NO PAYAPAYA",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test Local item",
-            "local": true,
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test"]
+            "name": "AR Card - Happy Synthesizer",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test early item A",
-            "early": true,
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test", "dont_place_item_category_test"]
+            "name": "AR Card - SING & SMILE",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test early item B",
-            "early": 1,
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test", "dont_place_item_category_test"]
+            "name": "AR Card - 1/6 -out of the gravity-",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test local-early item A",
-            "local_early": true,
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test", "dont_place_item_category_test"]
+            "name": "AR Card - Mousou Sketch",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
         },
         {
-            "name": "Test local-early item B",
-            "local_early": 1,
-            "progression": true,
-            "category": ["For_Tests_And_Examples", "place_item_category_test", "dont_place_item_category_test"]
+            "name": "AR Card - Matryoshka",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Cendrillon",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Adolescence",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - on the rocks",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - No Logic",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Romeo and Cinderella",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Senbonzakura",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Snowman",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Invisible",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Gaikotsu Gakudan to Riria",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - ARIFURETA SEKAI SEIFUKU",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Melancholic",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - 1 2 Fanclub",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Electric Angel",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Tricolore Airline",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Piano X Forte X Scandal",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - Nice To Meet You, Mr. Earthling",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "AR Card - shake it!",
+            "category": ["AR Cards", "Stage Cards"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Leek",
+            "category": ["Filler"]
+        },
+        {
+            "name": "Orange",
+            "category": ["Filler"]
+        },
+        {
+            "name": "Banana",
+            "category": ["Filler"]
+        },
+        {
+            "name": "Tuna",
+            "category": ["Filler"]
+        },
+        {
+            "name": "Ice Cream Cone",
+            "category": ["Filler"]
+        },
+        {
+            "name": "Bottle of Sake",
+            "category": ["Filler"]
+        },
+        {
+            "name": "Carrot",
+            "category": ["Filler"]
+        },
+        {
+            "name": "Missed Input",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "HOW DID THAT NOT COUNT I PRESSED THE RIGHT mikudayooo BUTTON",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Incorrect Timing",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Wrong Input",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Brain Lag",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "hi, lower arm here, I need some rest",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Noticable nose itch",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Suddenly regained conciousness",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "\"Hey this part is actually pretty easy-\"",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "comically timed SAFE",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Slide input jank",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "C-C-C-COMBO BREAKER",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "ok how was THAT not a safe",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "you're getting drowsy and sleepy and tired now...",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Chat I don't think we can miku miku oo ee oo our way outta this one",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Rin-chan now! Rin-chan now! Rin-chan Rin-chan Rin-chan now!",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "bobot trasgedner, the Translender",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "A filler item representing the suave, sexy and bilingual Luka herself.",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "50% older brother, 50% convicted crackhead, 0% Kermit the Frog",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "guys why is no one using MEIKO anymore T_T",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "look GUMI I love you but please you don't need to stop by every 5 seconds",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "GAKUPO found shot dead in the Bronx",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Sekai de ichiban ohimesama souiu atsukai kokoroete yo ne",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Let it, \"clover club\" the beautiful love.",
+            "category": ["Joke Filler"]
+        },
+        {
+            "name": "Kasane Teto",
+            "category": ["Joke Filler"],
+            "count": 1
+        },
+        {
+            "name": "Yowane Haku",
+            "category": ["Joke Filler"],
+            "count": 1
+        },
+        {
+            "name": "Akita Neru",
+            "category": ["Joke Filler"],
+            "count": 1
+        },
+        {
+            "name": "Sakine MEIKO",
+            "category": ["Joke Filler"],
+            "count": 1
+        },
+        {
+            "name": "Mikudayo",
+            "category": ["Joke Filler"],
+            "count": 1
+        },
+        {
+            "name": "Restart Trap",
+            "category": ["Traps"],
+            "trap": true
+        },
+        {
+            "name": "Finder - DSLR remix-re:edit",
+            "category": ["Stages", "Full stages", "Finder - DSLR remix-re:edit", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sweet Magic",
+            "category": ["Stages", "Full stages", "Sweet Magic", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Deep Sea Girl",
+            "category": ["Stages", "Full stages", "Deep Sea Girl", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Animal Fortune-telling",
+            "category": ["Stages", "Full stages", "Animal Fortune-telling", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Terekakushi Shishunki",
+            "category": ["Stages", "Full stages", "Terekakushi Shishunki", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "The World is Mine",
+            "category": ["Stages", "Full stages", "The World is Mine", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Amatsu Kitsune",
+            "category": ["Stages", "Full stages", "Amatsu Kitsune", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ageage Again",
+            "category": ["Stages", "Full stages", "Ageage Again", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Clover Club",
+            "category": ["Stages", "Full stages", "Hatsune Miku", "Clover Club", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Yumeyume",
+            "category": ["Stages", "Full stages", "Yumeyume", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Doremifa Rondo",
+            "category": ["Stages", "Full stages", "Doremifa Rondo", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "reverse rainbow",
+            "category": ["Stages", "Full stages", "Hatsune Miku", "reverse rainbow", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "KONEKO NO PAYAPAYA",
+            "category": ["Stages", "Full stages", "Hatsune Miku", "KONEKO NO PAYAPAYA", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Hello/How are you?",
+            "category": ["Stages", "Full stages", "Hello/How are you?", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kokoro",
+            "category": ["Stages", "Full stages", "Kokoro", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "PIANO*GIRL",
+            "category": ["Stages", "Full stages", "PIANO*GIRL", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Happy Synthesizer",
+            "category": ["Stages", "Full stages", "Happy Synthesizer", "Megurine Luka", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE",
+            "category": ["Stages", "Full stages", "SING&SMILE", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1/6 -out of the gravity-",
+            "category": ["Stages", "Full stages", "1/6 -out of the gravity-", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Mousou Sketch",
+            "category": ["Stages", "Full stages", "Mousou Sketch", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1925",
+            "category": ["Stages", "Full stages", "1925", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka",
+            "category": ["Stages", "Full stages", "Matryoshka", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Cendrillon",
+            "category": ["Stages", "Full stages", "Cendrillon", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adolescence",
+            "category": ["Stages", "Full stages", "Adolescence", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "on the rocks",
+            "category": ["Stages", "Full stages", "on the rocks", "KAITO", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "No Logic",
+            "category": ["Stages", "Full stages", "No Logic", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "*Hello, Planet.",
+            "category": ["Stages", "Full stages", "*Hello, Planet.", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella",
+            "category": ["Stages", "Full stages", "Romeo and Cinderella", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "LOL -lots of laugh-",
+            "category": ["Stages", "Full stages", "LOL -lots of laugh-", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Senbonzakura",
+            "category": ["Stages", "Full stages", "Senbonzakura", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Musume",
+            "category": ["Stages", "Full stages", "Aku no Musume", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Meshitsukai",
+            "category": ["Stages", "Full stages", "Aku no Meshitsukai", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Snowman",
+            "category": ["Stages", "Full stages", "Snowman", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible",
+            "category": ["Stages", "Full stages", "Invisible", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Gaikotsu Gakudan to Riria",
+            "category": ["Stages", "Full stages", "Gaikotsu Gakudan to Riria", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU",
+            "category": ["Stages", "Full stages", "ARIFURETA SEKAI SEIFUKU", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Love",
+            "category": ["Stages", "Full stages", "Electric Love", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Melancholic",
+            "category": ["Stages", "Full stages", "Melancholic", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub",
+            "category": ["Stages", "Full stages", "1 2 Fanclub", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Angel",
+            "category": ["Stages", "Full stages", "Electric Angel", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Interviewer",
+            "category": ["Stages", "Full stages", "Interviewer", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Tricolore Airline",
+            "category": ["Stages", "Full stages", "Tricolore Airline", "Hatsune Miku", "Kagamine Rin", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Piano X Forte X Scandal",
+            "category": ["Stages", "Full stages", "Piano X Forte X Scandal", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kimi no Taion",
+            "category": ["Stages", "Full stages", "Kimi no Taion", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "glow",
+            "category": ["Stages", "Full stages", "glow", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Nice To Meet You, Mr. Earthling",
+            "category": ["Stages", "Full stages", "Nice To Meet You, Mr. Earthling", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Watashi no jikan",
+            "category": ["Stages", "Full stages", "Watashi no jikan", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "shake it!",
+            "category": ["Stages", "Full stages", "shake it!", "Hatsune Miku", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Finder - DSLR remix-re:edit - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Finder - DSLR remix-re:edit", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Finder - DSLR remix-re:edit - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Finder - DSLR remix-re:edit", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Finder - DSLR remix-re:edit - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Finder - DSLR remix-re:edit", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Finder - DSLR remix-re:edit - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Finder - DSLR remix-re:edit", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Finder - DSLR remix-re:edit - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Finder - DSLR remix-re:edit", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Finder - DSLR remix-re:edit - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Finder - DSLR remix-re:edit", "Button", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sweet Magic - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Sweet Magic", "Tap", "Easy", "Difficulty 1", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sweet Magic - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Sweet Magic", "Tap", "Normal", "Difficulty 3", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sweet Magic - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Sweet Magic", "Tap", "Hard", "Difficulty 6", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sweet Magic - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Sweet Magic", "Button", "Easy", "Difficulty 1", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sweet Magic - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Sweet Magic", "Button", "Normal", "Difficulty 3", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sweet Magic - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Sweet Magic", "Button", "Hard", "Difficulty 7", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Deep Sea Girl - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Deep Sea Girl", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Deep Sea Girl - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Deep Sea Girl", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Deep Sea Girl - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Deep Sea Girl", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Deep Sea Girl - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Deep Sea Girl", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Deep Sea Girl - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Deep Sea Girl", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Deep Sea Girl - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Deep Sea Girl", "Button", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Animal Fortune-telling - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Animal Fortune-telling", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Animal Fortune-telling - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Animal Fortune-telling", "Tap", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Animal Fortune-telling - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Animal Fortune-telling", "Tap", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Animal Fortune-telling - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Animal Fortune-telling", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Animal Fortune-telling - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Animal Fortune-telling", "Button", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Animal Fortune-telling - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Animal Fortune-telling", "Button", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Terekakushi Shishunki - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Terekakushi Shishunki", "Tap", "Easy", "Difficulty 2", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Terekakushi Shishunki - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Terekakushi Shishunki", "Tap", "Normal", "Difficulty 5", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Terekakushi Shishunki - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Terekakushi Shishunki", "Tap", "Hard", "Difficulty 7", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Terekakushi Shishunki - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Terekakushi Shishunki", "Button", "Easy", "Difficulty 2", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Terekakushi Shishunki - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Terekakushi Shishunki", "Button", "Normal", "Difficulty 5", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Terekakushi Shishunki - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Terekakushi Shishunki", "Button", "Hard", "Difficulty 7", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "The World is Mine - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "The World is Mine", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "The World is Mine - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "The World is Mine", "Tap", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "The World is Mine - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "The World is Mine", "Tap", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "The World is Mine - Button/Easy",
+            "category": ["Stages", "Split-up stages", "The World is Mine", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "The World is Mine - Button/Normal",
+            "category": ["Stages", "Split-up stages", "The World is Mine", "Button", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "The World is Mine - Button/Hard",
+            "category": ["Stages", "Split-up stages", "The World is Mine", "Button", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Amatsu Kitsune - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Amatsu Kitsune", "Tap", "Easy", "Difficulty 2", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Amatsu Kitsune - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Amatsu Kitsune", "Tap", "Normal", "Difficulty 5", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Amatsu Kitsune - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Amatsu Kitsune", "Tap", "Hard", "Difficulty 8", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Amatsu Kitsune - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Amatsu Kitsune", "Button", "Easy", "Difficulty 2", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Amatsu Kitsune - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Amatsu Kitsune", "Button", "Normal", "Difficulty 4", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Amatsu Kitsune - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Amatsu Kitsune", "Button", "Hard", "Difficulty 7", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ageage Again - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Ageage Again", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ageage Again - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Ageage Again", "Tap", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ageage Again - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Ageage Again", "Tap", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ageage Again - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Ageage Again", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ageage Again - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Ageage Again", "Button", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ageage Again - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Ageage Again", "Button", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Clover Club - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Clover Club", "Tap", "Easy", "Difficulty 1", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Clover Club - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Clover Club", "Tap", "Normal", "Difficulty 3", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Clover Club - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Clover Club", "Tap", "Hard", "Difficulty 6", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Clover Club - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Clover Club", "Button", "Easy", "Difficulty 1", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Clover Club - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Clover Club", "Button", "Normal", "Difficulty 3", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Clover Club - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Clover Club", "Button", "Hard", "Difficulty 6", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Yumeyume - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Yumeyume", "Tap", "Easy", "Difficulty 2", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Yumeyume - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Yumeyume", "Tap", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Yumeyume - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Yumeyume", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Yumeyume - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Yumeyume", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Yumeyume - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Yumeyume", "Button", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Yumeyume - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Yumeyume", "Button", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Doremifa Rondo - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Doremifa Rondo", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Doremifa Rondo - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Doremifa Rondo", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Doremifa Rondo - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Doremifa Rondo", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Doremifa Rondo - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Doremifa Rondo", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Doremifa Rondo - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Doremifa Rondo", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Doremifa Rondo - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Doremifa Rondo", "Button", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "reverse rainbow - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "reverse rainbow", "Tap", "Easy", "Difficulty 2", "Hatsune Miku", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "reverse rainbow - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "reverse rainbow", "Tap", "Normal", "Difficulty 4", "Hatsune Miku", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "reverse rainbow - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "reverse rainbow", "Tap", "Hard", "Difficulty 6", "Hatsune Miku", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "reverse rainbow - Button/Easy",
+            "category": ["Stages", "Split-up stages", "reverse rainbow", "Button", "Easy", "Difficulty 2", "Hatsune Miku", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "reverse rainbow - Button/Normal",
+            "category": ["Stages", "Split-up stages", "reverse rainbow", "Button", "Normal", "Difficulty 4", "Hatsune Miku", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "reverse rainbow - Button/Hard",
+            "category": ["Stages", "Split-up stages", "reverse rainbow", "Button", "Hard", "Difficulty 6", "Hatsune Miku", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "KONEKO NO PAYAPAYA - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "KONEKO NO PAYAPAYA", "Tap", "Easy", "Difficulty 2", "Hatsune Miku", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "KONEKO NO PAYAPAYA - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "KONEKO NO PAYAPAYA", "Tap", "Normal", "Difficulty 4", "Hatsune Miku", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "KONEKO NO PAYAPAYA - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "KONEKO NO PAYAPAYA", "Tap", "Hard", "Difficulty 7", "Hatsune Miku", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "KONEKO NO PAYAPAYA - Button/Easy",
+            "category": ["Stages", "Split-up stages", "KONEKO NO PAYAPAYA", "Button", "Easy", "Difficulty 2", "Hatsune Miku", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "KONEKO NO PAYAPAYA - Button/Normal",
+            "category": ["Stages", "Split-up stages", "KONEKO NO PAYAPAYA", "Button", "Normal", "Difficulty 4", "Hatsune Miku", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "KONEKO NO PAYAPAYA - Button/Hard",
+            "category": ["Stages", "Split-up stages", "KONEKO NO PAYAPAYA", "Button", "Hard", "Difficulty 6", "Hatsune Miku", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Hello/How are you? - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Hello/How are you?", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Hello/How are you? - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Hello/How are you?", "Tap", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Hello/How are you? - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Hello/How are you?", "Tap", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Hello/How are you? - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Hello/How are you?", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Hello/How are you? - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Hello/How are you?", "Button", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Hello/How are you? - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Hello/How are you?", "Button", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kokoro - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Kokoro", "Tap", "Easy", "Difficulty 1", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kokoro - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Kokoro", "Tap", "Normal", "Difficulty 3", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kokoro - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Kokoro", "Tap", "Hard", "Difficulty 6", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kokoro - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Kokoro", "Button", "Easy", "Difficulty 1", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kokoro - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Kokoro", "Button", "Normal", "Difficulty 3", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kokoro - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Kokoro", "Button", "Hard", "Difficulty 7", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "PIANO*GIRL - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "PIANO*GIRL", "Tap", "Easy", "Difficulty 2", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "PIANO*GIRL - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "PIANO*GIRL", "Tap", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "PIANO*GIRL - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "PIANO*GIRL", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "PIANO*GIRL - Button/Easy",
+            "category": ["Stages", "Split-up stages", "PIANO*GIRL", "Button", "Easy", "Difficulty 2", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "PIANO*GIRL - Button/Normal",
+            "category": ["Stages", "Split-up stages", "PIANO*GIRL", "Button", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "PIANO*GIRL - Button/Hard",
+            "category": ["Stages", "Split-up stages", "PIANO*GIRL", "Button", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Happy Synthesizer - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Happy Synthesizer", "Tap", "Easy", "Difficulty 2", "Megurine Luka", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Happy Synthesizer - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Happy Synthesizer", "Tap", "Normal", "Difficulty 5", "Megurine Luka", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Happy Synthesizer - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Happy Synthesizer", "Tap", "Hard", "Difficulty 8", "Megurine Luka", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Happy Synthesizer - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Happy Synthesizer", "Button", "Easy", "Difficulty 2", "Megurine Luka", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Happy Synthesizer - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Happy Synthesizer", "Button", "Normal", "Difficulty 5", "Megurine Luka", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Happy Synthesizer - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Happy Synthesizer", "Button", "Hard", "Difficulty 8", "Megurine Luka", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Tap", "Easy", "Difficulty 3", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Tap", "Normal", "Difficulty 6", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Tap", "Hard", "Difficulty 8", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Tap/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Button/Easy",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Button", "Easy", "Difficulty 3", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Button/Normal",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Button", "Normal", "Difficulty 5", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Button/Hard",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Tap", "Hard", "Difficulty MAX", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "SING&SMILE - Button/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "SING&SMILE", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku", "Kagamine Rin", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1/6 -out of the gravity- - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "1/6 -out of the gravity-", "Tap", "Easy", "Difficulty 2", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1/6 -out of the gravity- - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "1/6 -out of the gravity-", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1/6 -out of the gravity- - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "1/6 -out of the gravity-", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1/6 -out of the gravity- - Button/Easy",
+            "category": ["Stages", "Split-up stages", "1/6 -out of the gravity-", "Button", "Easy", "Difficulty 2", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1/6 -out of the gravity- - Button/Normal",
+            "category": ["Stages", "Split-up stages", "1/6 -out of the gravity-", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1/6 -out of the gravity- - Button/Hard",
+            "category": ["Stages", "Split-up stages", "1/6 -out of the gravity-", "Button", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Mousou Sketch - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Mousou Sketch", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Mousou Sketch - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Mousou Sketch", "Tap", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Mousou Sketch - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Mousou Sketch", "Tap", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Mousou Sketch - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Mousou Sketch", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Mousou Sketch - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Mousou Sketch", "Button", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Mousou Sketch - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Mousou Sketch", "Button", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1925 - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "1925", "Tap", "Easy", "Difficulty 1", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1925 - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "1925", "Tap", "Normal", "Difficulty 4", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1925 - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "1925", "Tap", "Hard", "Difficulty 7", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1925 - Button/Easy",
+            "category": ["Stages", "Split-up stages", "1925", "Button", "Easy", "Difficulty 2", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1925 - Button/Normal",
+            "category": ["Stages", "Split-up stages", "1925", "Button", "Normal", "Difficulty 4", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1925 - Button/Hard",
+            "category": ["Stages", "Split-up stages", "1925", "Button", "Hard", "Difficulty 8", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Tap", "Easy", "Difficulty 3", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Tap", "Normal", "Difficulty 5", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Tap", "Hard", "Difficulty 8", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Tap/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Button", "Easy", "Difficulty 3", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Button", "Normal", "Difficulty 5", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Tap", "Hard", "Difficulty MAX", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Matryoshka - Button/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "Matryoshka", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Cendrillon - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Cendrillon", "Tap", "Easy", "Difficulty 2", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Cendrillon - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Cendrillon", "Tap", "Normal", "Difficulty 4", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Cendrillon - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Cendrillon", "Tap", "Hard", "Difficulty 7", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Cendrillon - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Cendrillon", "Button", "Easy", "Difficulty 3", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Cendrillon - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Cendrillon", "Button", "Normal", "Difficulty 5", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Cendrillon - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Cendrillon", "Button", "Hard", "Difficulty 8", "Hatsune Miku", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adolescence - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Adolescence", "Tap", "Easy", "Difficulty 2", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adolescence - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Adolescence", "Tap", "Normal", "Difficulty 4", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adolescence - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Adolescence", "Tap", "Hard", "Difficulty 7", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adolescence - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Adolescence", "Button", "Easy", "Difficulty 3", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adolescence - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Adolescence", "Button", "Normal", "Difficulty 5", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adolescence - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Adolescence", "Button", "Hard", "Difficulty 8", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "on the rocks - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "on the rocks", "Tap", "Easy", "Difficulty 2", "KAITO", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "on the rocks - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "on the rocks", "Tap", "Normal", "Difficulty 4", "KAITO", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "on the rocks - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "on the rocks", "Tap", "Hard", "Difficulty 8", "KAITO", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "on the rocks - Button/Easy",
+            "category": ["Stages", "Split-up stages", "on the rocks", "Button", "Easy", "Difficulty 2", "KAITO", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "on the rocks - Button/Normal",
+            "category": ["Stages", "Split-up stages", "on the rocks", "Button", "Normal", "Difficulty 4", "KAITO", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "on the rocks - Button/Hard",
+            "category": ["Stages", "Split-up stages", "on the rocks", "Button", "Hard", "Difficulty 8", "KAITO", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "No Logic - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "No Logic", "Tap", "Easy", "Difficulty 3", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "No Logic - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "No Logic", "Tap", "Normal", "Difficulty 5", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "No Logic - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "No Logic", "Tap", "Hard", "Difficulty 7", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "No Logic - Button/Easy",
+            "category": ["Stages", "Split-up stages", "No Logic", "Button", "Easy", "Difficulty 3", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "No Logic - Button/Normal",
+            "category": ["Stages", "Split-up stages", "No Logic", "Button", "Normal", "Difficulty 5", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "No Logic - Button/Hard",
+            "category": ["Stages", "Split-up stages", "No Logic", "Button", "Hard", "Difficulty 7", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "*Hello, Planet. - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "*Hello, Planet.", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "*Hello, Planet. - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "*Hello, Planet.", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "*Hello, Planet. - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "*Hello, Planet.", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "*Hello, Planet. - Button/Easy",
+            "category": ["Stages", "Split-up stages", "*Hello, Planet.", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "*Hello, Planet. - Button/Normal",
+            "category": ["Stages", "Split-up stages", "*Hello, Planet.", "Button", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "*Hello, Planet. - Button/Hard",
+            "category": ["Stages", "Split-up stages", "*Hello, Planet.", "Button", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Tap", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Tap", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Tap/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Button", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Tap", "Hard", "Difficulty MAX", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Romeo and Cinderella - Button/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "Romeo and Cinderella", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "LOL -lots of laugh- - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "LOL -lots of laugh-", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "LOL -lots of laugh- - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "LOL -lots of laugh-", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "LOL -lots of laugh- - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "LOL -lots of laugh-", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "LOL -lots of laugh- - Button/Easy",
+            "category": ["Stages", "Split-up stages", "LOL -lots of laugh-", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "LOL -lots of laugh- - Button/Normal",
+            "category": ["Stages", "Split-up stages", "LOL -lots of laugh-", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "LOL -lots of laugh- - Button/Hard",
+            "category": ["Stages", "Split-up stages", "LOL -lots of laugh-", "Button", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Senbonzakura - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Senbonzakura", "Tap", "Easy", "Difficulty 2", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Senbonzakura - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Senbonzakura", "Tap", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Senbonzakura - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Senbonzakura", "Tap", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Senbonzakura - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Senbonzakura", "Button", "Easy", "Difficulty 2", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Senbonzakura - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Senbonzakura", "Button", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Senbonzakura - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Senbonzakura", "Button", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Musume - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Aku no Musume", "Tap", "Easy", "Difficulty 1", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Musume - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Aku no Musume", "Tap", "Normal", "Difficulty 3", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Musume - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Aku no Musume", "Tap", "Hard", "Difficulty 6", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Musume - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Aku no Musume", "Button", "Easy", "Difficulty 1", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Musume - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Aku no Musume", "Button", "Normal", "Difficulty 3", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Musume - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Aku no Musume", "Button", "Hard", "Difficulty 6", "Kagamine Rin"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Meshitsukai - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Aku no Meshitsukai", "Tap", "Easy", "Difficulty 2", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Meshitsukai - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Aku no Meshitsukai", "Tap", "Normal", "Difficulty 4", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Meshitsukai - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Aku no Meshitsukai", "Tap", "Hard", "Difficulty 7", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Meshitsukai - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Aku no Meshitsukai", "Button", "Easy", "Difficulty 2", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Meshitsukai - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Aku no Meshitsukai", "Button", "Normal", "Difficulty 4", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Aku no Meshitsukai - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Aku no Meshitsukai", "Button", "Hard", "Difficulty 7", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Snowman - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Snowman", "Tap", "Easy", "Difficulty 2", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Snowman - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Snowman", "Tap", "Normal", "Difficulty 5", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Snowman - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Snowman", "Tap", "Hard", "Difficulty 7", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Snowman - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Snowman", "Button", "Easy", "Difficulty 2", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Snowman - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Snowman", "Button", "Normal", "Difficulty 4", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Snowman - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Snowman", "Button", "Hard", "Difficulty 7", "KAITO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Invisible", "Tap", "Easy", "Difficulty 3", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Invisible", "Tap", "Normal", "Difficulty 6", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Invisible", "Tap", "Hard", "Difficulty 8", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Tap/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "Invisible", "Tap", "SUPER Hard", "Difficulty MAX", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Invisible", "Button", "Easy", "Difficulty 3", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Invisible", "Button", "Normal", "Difficulty 6", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Invisible", "Tap", "Hard", "Difficulty MAX", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Invisible - Button/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "Invisible", "Tap", "SUPER Hard", "Difficulty MAX", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Gaikotsu Gakudan to Riria - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Gaikotsu Gakudan to Riria", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Gaikotsu Gakudan to Riria - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Gaikotsu Gakudan to Riria", "Tap", "Normal", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Gaikotsu Gakudan to Riria - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Gaikotsu Gakudan to Riria", "Tap", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Gaikotsu Gakudan to Riria - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Gaikotsu Gakudan to Riria", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Gaikotsu Gakudan to Riria - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Gaikotsu Gakudan to Riria", "Button", "Normal", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Gaikotsu Gakudan to Riria - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Gaikotsu Gakudan to Riria", "Button", "Hard", "Difficulty 9", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Tap", "Normal", "Difficulty 5", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Tap", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Tap/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Button/Easy",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Button/Normal",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Button", "Normal", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Button/Hard",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Tap", "Hard", "Difficulty MAX", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "ARIFURETA SEKAI SEIFUKU - Button/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "ARIFURETA SEKAI SEIFUKU", "Tap", "SUPER Hard", "Difficulty MAX", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Love - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Electric Love", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Love - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Electric Love", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Love - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Electric Love", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Love - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Electric Love", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Love - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Electric Love", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Love - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Electric Love", "Button", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Melancholic - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Melancholic", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Melancholic - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Melancholic", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Melancholic - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Melancholic", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Melancholic - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Melancholic", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Melancholic - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Melancholic", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Melancholic - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Melancholic", "Button", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Tap", "Easy", "Difficulty 2", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Tap", "Normal", "Difficulty 4", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Tap", "Hard", "Difficulty 7", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Tap/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Tap", "SUPER Hard", "Difficulty MAX", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Button/Easy",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Button", "Easy", "Difficulty 2", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Button/Normal",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Button", "Normal", "Difficulty 4", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Button/Hard",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Tap", "Hard", "Difficulty MAX", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "1 2 Fanclub - Button/SUPER Hard",
+            "category": ["Stages", "Split-up stages", "1 2 Fanclub", "Tap", "SUPER Hard", "Difficulty MAX", "Kagamine Rin", "GUMI"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Angel - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Electric Angel", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Angel - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Electric Angel", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Angel - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Electric Angel", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Angel - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Electric Angel", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Angel - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Electric Angel", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Electric Angel - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Electric Angel", "Button", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Interviewer - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Interviewer", "Tap", "Easy", "Difficulty 1", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Interviewer - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Interviewer", "Tap", "Normal", "Difficulty 3", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Interviewer - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Interviewer", "Tap", "Hard", "Difficulty 6", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Interviewer - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Interviewer", "Button", "Easy", "Difficulty 1", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Interviewer - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Interviewer", "Button", "Normal", "Difficulty 3", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Interviewer - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Interviewer", "Button", "Hard", "Difficulty 6", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Tricolore Airline - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Tricolore Airline", "Tap", "Easy", "Difficulty 2", "Hatsune Miku", "Kagamine Rin", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Tricolore Airline - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Tricolore Airline", "Tap", "Normal", "Difficulty 5", "Hatsune Miku", "Kagamine Rin", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Tricolore Airline - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Tricolore Airline", "Tap", "Hard", "Difficulty 7", "Hatsune Miku", "Kagamine Rin", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Tricolore Airline - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Tricolore Airline", "Button", "Easy", "Difficulty 2", "Hatsune Miku", "Kagamine Rin", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Tricolore Airline - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Tricolore Airline", "Button", "Normal", "Difficulty 5", "Hatsune Miku", "Kagamine Rin", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Tricolore Airline - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Tricolore Airline", "Button", "Hard", "Difficulty 7", "Hatsune Miku", "Kagamine Rin", "Megurine Luka"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Piano X Forte X Scandal - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Piano X Forte X Scandal", "Tap", "Easy", "Difficulty 2", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Piano X Forte X Scandal - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Piano X Forte X Scandal", "Tap", "Normal", "Difficulty 5", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Piano X Forte X Scandal - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Piano X Forte X Scandal", "Tap", "Hard", "Difficulty 7", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Piano X Forte X Scandal - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Piano X Forte X Scandal", "Button", "Easy", "Difficulty 2", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Piano X Forte X Scandal - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Piano X Forte X Scandal", "Button", "Normal", "Difficulty 5", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Piano X Forte X Scandal - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Piano X Forte X Scandal", "Button", "Hard", "Difficulty 7", "MEIKO"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kimi no Taion - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Kimi no Taion", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kimi no Taion - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Kimi no Taion", "Tap", "Normal", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kimi no Taion - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Kimi no Taion", "Tap", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kimi no Taion - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Kimi no Taion", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kimi no Taion - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Kimi no Taion", "Button", "Normal", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Kimi no Taion - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Kimi no Taion", "Button", "Hard", "Difficulty 9", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "glow - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "glow", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "glow - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "glow", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "glow - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "glow", "Tap", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "glow - Button/Easy",
+            "category": ["Stages", "Split-up stages", "glow", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "glow - Button/Normal",
+            "category": ["Stages", "Split-up stages", "glow", "Button", "Normal", "Difficulty 4", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "glow - Button/Hard",
+            "category": ["Stages", "Split-up stages", "glow", "Button", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Nice To Meet You, Mr. Earthling - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Nice To Meet You, Mr. Earthling", "Tap", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Nice To Meet You, Mr. Earthling - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Nice To Meet You, Mr. Earthling", "Tap", "Normal", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Nice To Meet You, Mr. Earthling - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Nice To Meet You, Mr. Earthling", "Tap", "Hard", "Difficulty 7", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Nice To Meet You, Mr. Earthling - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Nice To Meet You, Mr. Earthling", "Button", "Easy", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Nice To Meet You, Mr. Earthling - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Nice To Meet You, Mr. Earthling", "Button", "Normal", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Nice To Meet You, Mr. Earthling - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Nice To Meet You, Mr. Earthling", "Button", "Hard", "Difficulty 8", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Watashi no jikan - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "Watashi no jikan", "Tap", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Watashi no jikan - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "Watashi no jikan", "Tap", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Watashi no jikan - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "Watashi no jikan", "Tap", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Watashi no jikan - Button/Easy",
+            "category": ["Stages", "Split-up stages", "Watashi no jikan", "Button", "Easy", "Difficulty 1", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Watashi no jikan - Button/Normal",
+            "category": ["Stages", "Split-up stages", "Watashi no jikan", "Button", "Normal", "Difficulty 3", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Watashi no jikan - Button/Hard",
+            "category": ["Stages", "Split-up stages", "Watashi no jikan", "Button", "Hard", "Difficulty 6", "Hatsune Miku"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "shake it! - Tap/Easy",
+            "category": ["Stages", "Split-up stages", "shake it!", "Tap", "Easy", "Difficulty 1", "Hatsune Miku", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "shake it! - Tap/Normal",
+            "category": ["Stages", "Split-up stages", "shake it!", "Tap", "Normal", "Difficulty 4", "Hatsune Miku", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "shake it! - Tap/Hard",
+            "category": ["Stages", "Split-up stages", "shake it!", "Tap", "Hard", "Difficulty 7", "Hatsune Miku", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "shake it! - Button/Easy",
+            "category": ["Stages", "Split-up stages", "shake it!", "Button", "Easy", "Difficulty 2", "Hatsune Miku", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "shake it! - Button/Normal",
+            "category": ["Stages", "Split-up stages", "shake it!", "Button", "Normal", "Difficulty 4", "Hatsune Miku", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "shake it! - Button/Hard",
+            "category": ["Stages", "Split-up stages", "shake it!", "Button", "Hard", "Difficulty 7", "Hatsune Miku", "Kagamine Rin", "Kagamine Len"],
+            "count": 1,
+            "progression": true
         }
-
     ]
 }
